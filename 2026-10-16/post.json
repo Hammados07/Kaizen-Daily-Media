@@ -1,0 +1,41 @@
+{
+ "day": "2026-10-16",
+ "id": "sampling-literary-digest",
+ "site": "mba",
+ "url": "https://kaizen-desk-mba.pages.dev/#/field/research-sampling",
+ "instagram": {
+  "time": "2026-10-16T08:30:00",
+  "caption": "2.3 million people answered a poll. It still picked the wrong president.\n\nIn 1936 the Literary Digest mailed about 10 million ballots and got about 2.3 million back. It predicted Alf Landon would win with 57%. Franklin Roosevelt won 60.8% and 46 of 48 states.\n\nTwo things went wrong:\n1. The list. Names came from car registrations, phone books and magazine subscribers. During the Depression those people were richer than average.\n2. Who replied. Only about 1 in 4 answered, and the people unhappy with Roosevelt were keener to send the card back.\n\nThe lesson for every survey, poll and feedback form: a bigger sample shrinks random error, but it does nothing about who is missing.\n\nTry the free lab on kaizen-desk-mba.pages.dev (link in bio). Survey 10,000 invented employees four ways and see which one finds the truth.\n\nSources: Literary Digest poll data, randomservices.org. Lusinchi, Social Science History, 2012.\n\n#statistics #research #survey #datascience #mba #kaizendesk",
+  "media": [
+   "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-16/sampling-literary-digest-1.jpg",
+   "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-16/sampling-literary-digest-2.jpg",
+   "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-16/sampling-literary-digest-3.jpg",
+   "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-16/sampling-literary-digest-4.jpg",
+   "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-16/sampling-literary-digest-5.jpg",
+   "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-16/sampling-literary-digest-6.jpg",
+   "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-16/sampling-literary-digest-7.jpg"
+  ]
+ },
+ "youtube": {
+  "time": "2026-10-16T18:00:00",
+  "title": "The biggest poll in history picked the wrong president #shorts",
+  "description": "In 1936 the Literary Digest got 2.3 million answers and still predicted the wrong winner. Two biases explain it: a list that left out poorer voters, and the fact that only the keenest people replied.\n\nFree interactive lab: https://kaizen-desk-mba.pages.dev/#/field/research-sampling\n\nSources: https://randomservices.org/random/data/LiteraryDigest.html and Lusinchi (2012), Social Science History 36(1).\n\n#statistics #survey #shorts",
+  "media": [
+   "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-16/sampling-literary-digest.mp4"
+  ],
+  "cover": "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-16/sampling-literary-digest-1.jpg"
+ },
+ "linkedin": {
+  "time": "2026-10-16T09:00:00",
+  "text": "In 1936 the Literary Digest ran the biggest poll in history. About 10 million ballots went out and 2.3 million came back. It predicted Alf Landon would win with 57%.\n\nRoosevelt won 60.8% and 46 of 48 states.\n\nThe list came from car registrations, phone books and magazine subscribers, which skewed rich during the Depression. And only about 1 in 4 replied, mostly people with strong views.\n\nI see the same pattern in employee pulse surveys and customer feedback today. A big response count feels safe. It is not. Size shrinks random error. It does nothing about who is missing.\n\nI built a free lab where you survey 10,000 invented employees four ways and compare:\nhttps://kaizen-desk-mba.pages.dev/#/field/research-sampling\n\n#statistics #research #analytics",
+  "media": [
+   "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-16/sampling-literary-digest-1.jpg",
+   "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-16/sampling-literary-digest-2.jpg",
+   "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-16/sampling-literary-digest-3.jpg",
+   "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-16/sampling-literary-digest-4.jpg",
+   "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-16/sampling-literary-digest-5.jpg",
+   "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-16/sampling-literary-digest-6.jpg",
+   "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-16/sampling-literary-digest-7.jpg"
+  ]
+ }
+}
