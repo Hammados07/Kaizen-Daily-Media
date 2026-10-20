@@ -1,34 +1,29 @@
-// Saves NASA's Astronomy Picture of the Day for the last few days into apod/.
-// Every day gets apod/<date>.json (title, explanation, credit, links). The picture itself is saved as
-// apod/<date>.jpg only when NASA owns it (public domain): the credit names NASA or a NASA centre and says
-// nothing about copyright. Pictures owned by photographers are never copied here.
-// Usage: node scripts/apod-fetch.mjs [days]   (NASA_API_KEY from the environment, or DEMO_KEY)
+// Saves the Astronomy Picture of the Day for the last few days into apod/, for the story Shorts.
+// It asks Rimi Lab Cosmos's own endpoint (cosmos.rimilab.com/api/apod), which already repairs NASA's
+// placeholder entries and works out who owns each picture. Every day gets apod/<date>.json. The picture
+// itself is saved as apod/<date>.jpg only when NASA owns it; pictures owned by photographers are never copied.
+// Usage: node scripts/apod-fetch.mjs [days]
 import { writeFileSync, existsSync, mkdirSync } from 'node:fs';
 const days = Number(process.argv[2] || 3);
-const key = process.env.NASA_API_KEY || 'DEMO_KEY';
-const end = new Date(); const start = new Date(end); start.setUTCDate(start.getUTCDate() - days + 1);
 const iso = (d) => d.toISOString().slice(0, 10);
-const strip = (s) => String(s || '').replace(/<[^>]*>/g, ' ').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
-const NASA = /\b(NASA|JPL|Goddard|Marshall|Ames|Johnson Space Center|Kennedy Space Center|Langley|Glenn Research)\b/i;
-const url = `https://api.nasa.gov/planetary/apod?api_key=${key}&start_date=${iso(start)}&end_date=${iso(end)}&thumbs=true`;
-const r = await fetch(url);
-if (!r.ok) { console.log(`::warning::APOD answered ${r.status}`); process.exit(0); }
-const list = await r.json();
 mkdirSync('apod', { recursive: true });
-for (const o of Array.isArray(list) ? list : [list]) {
-  if (!o || !/^\d{4}-\d{2}-\d{2}$/.test(o.date || '')) continue;
-  const rawCredit = strip(o.copyright ?? o.credit ?? '');
-  const nasaOwned = NASA.test(rawCredit) && !/copyright|©/i.test(rawCredit) || (!o.copyright && !o.credit);
-  const picture = o.media_type === 'image' ? (o.hdurl && /\.(jpe?g|png)$/i.test(o.hdurl) ? o.hdurl : o.url) : null;
-  const rec = {
-    date: o.date, title: strip(o.title), explanation: strip(o.explanation), credit: rawCredit || 'NASA',
-    nasaOwned, mediaType: o.media_type, page: o.permalink || `https://apod.nasa.gov/apod/ap${o.date.slice(2, 4)}${o.date.slice(5, 7)}${o.date.slice(8)}.html`,
-    picture: nasaOwned && picture ? `apod/${o.date}.jpg` : null,
-  };
-  if (rec.picture && !existsSync(rec.picture) && /\.(jpe?g|png)$/i.test(picture || '')) {
-    const img = await fetch(picture);
-    if (img.ok) writeFileSync(rec.picture, Buffer.from(await img.arrayBuffer())); else rec.picture = null;
-  } else if (rec.picture && !/\.(jpe?g|png)$/i.test(picture || '')) rec.picture = null;
-  writeFileSync(`apod/${o.date}.json`, JSON.stringify(rec, null, 1) + '\n');
-  console.log(`${o.date} ${nasaOwned ? 'NASA-owned' : 'owner keeps copyright'}: ${rec.title}`);
+for (let k = 0; k < days; k++) {
+  const d = new Date(); d.setUTCDate(d.getUTCDate() - k - 1);
+  const date = iso(d);
+  if (existsSync(`apod/${date}.json`)) continue;
+  const r = await fetch(`https://cosmos.rimilab.com/api/apod?date=${date}`, { headers: { accept: 'application/json' } }).catch(() => null);
+  const body = r && (await r.json().catch(() => null));
+  if (!body?.ok || !body.data) { console.log(`::warning::${date}: ${body?.error || 'no answer'}`); continue; }
+  const a = body.data;
+  if (a.placeholder || a.fallback || a.date !== date) { console.log(`${date}: NASA has no complete entry yet, skipped`); continue; }
+  const nasaOwned = !a.copyrighted;
+  const rec = { date, title: a.title, explanation: a.explanation, credit: a.credit, nasaOwned, mediaType: a.mediaType, page: a.page, picture: null };
+  const src = a.hdImage || a.image;
+  if (nasaOwned && a.mediaType === 'image' && src && /\.(jpe?g|png)(\?|$)/i.test(src)) {
+    const img = await fetch(src).catch(() => null);
+    if (img?.ok) { rec.picture = `apod/${date}.jpg`; writeFileSync(rec.picture, Buffer.from(await img.arrayBuffer())); }
+  }
+  writeFileSync(`apod/${date}.json`, JSON.stringify(rec, null, 1) + '\n');
+  console.log(`${date} ${nasaOwned ? 'NASA-owned' : 'owner keeps copyright'}: ${rec.title}`);
+  await new Promise((res) => setTimeout(res, 1500));
 }
