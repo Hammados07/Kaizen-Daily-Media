@@ -1,0 +1,30 @@
+name: Save the Astronomy Picture of the Day
+# Runs every morning and keeps a record of each day's APOD for the story Shorts.
+# Pictures are copied only when NASA owns them (see scripts/apod-fetch.mjs).
+on:
+  schedule:
+    - cron: '23 0 * * *'
+  workflow_dispatch:
+    inputs:
+      days:
+        description: How many days back to fetch
+        default: '3'
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/apod-fetch.mjs ${{ github.event.inputs.days || '3' }}
+        env:
+          NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
+      - name: Commit what changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add apod
+          git diff --cached --quiet || git commit -m "APOD records for $(date -u +%F)"
+          git push
