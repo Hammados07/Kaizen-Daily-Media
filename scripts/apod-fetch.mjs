@@ -22,8 +22,8 @@ const ALT_V = 2; // bump to search again for records checked by an older version
 // Catalogue names such as M104, IC 63, NGC 7000, Sh2-188 or Arp 78 make the best searches.
 const catalogue = (t) => (t.match(/\b(?:M|NGC|IC|Sh2-|Arp|Abell|Pa)\s?-?\d+\b/g) || []).map((x) => x.replace(/\s+/g, ' '));
 const distinct = (w) => /\d/.test(w) || !['nebula', 'galaxy', 'moon', 'moons', 'star', 'stars', 'sky', 'night', 'over', 'cloud', 'clouds'].includes(w);
-async function findAlt(title) {
-  const parts = [...new Set([...catalogue(title), title.split(':')[1], title.split(':')[0], title].map((x) => (x || '').trim()).filter((x) => x.length > 1))];
+async function findAlt(title, own = null) {
+  const parts = own ? [own] : [...new Set([...catalogue(title), title.split(':')[1], title.split(':')[0], title].map((x) => (x || '').trim()).filter((x) => x.length > 1))];
   for (const q of parts) {
     const keys = words(q).filter((w) => !STOP.has(w));
     if (!keys.length) continue;
@@ -58,6 +58,18 @@ async function addAlt(rec) {
   writeFileSync(`apod/${rec.date}-alt.jpg`, buf);
   rec.alt = { ...alt, picture: `apod/${rec.date}-alt.jpg` };
   console.log(`${rec.date}: NASA picture of the same subject, ${alt.nasaId}: ${alt.title}`);
+}
+// The picture Short agent can ask for its own search: ALT_DATE=<date> ALT_QUERY="<words>" (from the workflow inputs).
+if (process.env.ALT_DATE && process.env.ALT_QUERY && existsSync(`apod/${process.env.ALT_DATE}.json`)) {
+  const f = `apod/${process.env.ALT_DATE}.json`, rec = JSON.parse(readFileSync(f, 'utf8'));
+  if (!rec.nasaOwned) {
+    const alt = await findAlt(rec.title, process.env.ALT_QUERY).catch(() => null);
+    if (alt) {
+      const img = await fetch(alt.href).catch(() => null);
+      const buf = img?.ok ? Buffer.from(await img.arrayBuffer()) : null;
+      if (buf && buf.length <= 15e6) { writeFileSync(`apod/${rec.date}-alt.jpg`, buf); rec.alt = { ...alt, picture: `apod/${rec.date}-alt.jpg`, askedFor: process.env.ALT_QUERY }; writeFileSync(f, JSON.stringify(rec, null, 1) + '\n'); console.log(`${rec.date}: asked-for search found ${alt.nasaId}: ${alt.title}`); }
+    } else console.log(`${rec.date}: asked-for search "${process.env.ALT_QUERY}" found nothing NASA-only on subject`);
+  }
 }
 // Fill in the NASA alternative for recent records saved before this step existed.
 for (const f of readdirSync('apod').filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().slice(-days)) {
