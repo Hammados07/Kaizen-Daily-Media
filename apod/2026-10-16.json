@@ -7,5 +7,16 @@
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-october-16-chasing-the-international-space-station/",
  "picture": null,
- "altChecked": true
+ "altChecked": 2,
+ "alt": {
+  "query": "Chasing the International Space Station",
+  "nasaId": "0101377",
+  "title": "International Space Station (ISS)",
+  "center": "MSFC",
+  "created": "2001-02-01",
+  "description": "The Marshall Space Flight Center (MSFC) is responsible for designing and building the life support systems that will provide the crew of the International Space Station (ISS) a comfortable environment in which to live and work. Scientists and engineers at the MSFC are working together to provide the ISS with systems that are safe, efficient, and cost-effective. These compact and powerful systems are collectively called the Environmental Control and Life Support Systems, or simply, ECLSS. This photograph shows the fifth generation Urine Processor Development Hardware. The Urine Processor Assembly (UPA) is a part of the Water Recovery System (WRS) on the ISS. It uses a chase change process called vapor compression distillation technology to remove contaminants from urine. The UPA accepts and processes pretreated crewmember urine to allow it to be processed along with other wastewaters in the Water Processor Assembly (WPA). The WPA removes free gas, organic, and nonorganic constituents before the water goes through a series of multifiltration beds for further purification. Product water quality is monitored primarily through conductivity measurements. Unacceptable water is sent back through the WPA for reprocessing. Clean water is sent to a storage tank. ",
+  "page": "https://images.nasa.gov/details/0101377",
+  "href": "https://images-assets.nasa.gov/image/0101377/0101377~large.jpg",
+  "picture": "apod/2026-10-16-alt.jpg"
+ }
 }
