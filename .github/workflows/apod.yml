@@ -1,9 +1,10 @@
 name: Save the Astronomy Picture of the Day
-# Runs every morning and keeps a record of each day's APOD for the story Shorts.
+# Runs twice every morning and keeps a record of each day's APOD for the picture Shorts.
 # Pictures are copied only when NASA owns them (see scripts/apod-fetch.mjs).
 on:
   schedule:
     - cron: '23 0 * * *'
+    - cron: '7 4 * * *' # 09:37 IST, soon after the day's picture is out, before the picture Short is made
   workflow_dispatch:
     inputs:
       days:
