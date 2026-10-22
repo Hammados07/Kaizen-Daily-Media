@@ -7,5 +7,17 @@
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/",
  "picture": null,
- "altChecked": 2
+ "altChecked": 2,
+ "alt": {
+  "query": "white dwarf",
+  "nasaId": "white_dwarf_disk_final",
+  "title": "Citizen Scientist Finds Ancient White Dwarf Star Encircled by Puzzling Rings",
+  "center": "GSFC",
+  "created": "2019-02-19",
+  "description": "In this illustration, an asteroid (bottom left) breaks apart under the powerful gravity of LSPM J0207+3331, the oldest, coldest white dwarf known to be surrounded by a ring of dusty debris. Scientists think the system’s infrared signal is best explained by two distinct rings composed of dust supplied by crumbling asteroids.  Credit: NASA’s Goddard Space Flight Center/Scott Wiessinger  https://svs.gsfc.nasa.gov/13147",
+  "page": "https://images.nasa.gov/details/white_dwarf_disk_final",
+  "href": "https://images-assets.nasa.gov/image/white_dwarf_disk_final/white_dwarf_disk_final~large.jpg",
+  "picture": "apod/2026-10-22-alt.jpg",
+  "askedFor": "white dwarf"
+ }
 }
