@@ -6,5 +6,6 @@
  "nasaOwned": false,
  "mediaType": "video",
  "page": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/",
- "picture": null
+ "picture": null,
+ "altChecked": true
 }

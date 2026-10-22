@@ -6,5 +6,6 @@
  "nasaOwned": false,
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-october-11-ice-fishing-for-cosmic-neutrinos/",
- "picture": null
+ "picture": null,
+ "altChecked": true
 }

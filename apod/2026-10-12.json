@@ -6,5 +6,17 @@
  "nasaOwned": false,
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-october-12-jupiter-and-the-moons/",
- "picture": null
+ "picture": null,
+ "altChecked": true,
+ "alt": {
+  "query": "Jupiter and the Moons",
+  "nasaId": "PIA09352",
+  "title": "Jupiter Moons: Family Portrait",
+  "center": "JPL",
+  "created": "2007-05-01",
+  "description": "Jupiter Moons: Family Portrait",
+  "page": "https://images.nasa.gov/details/PIA09352",
+  "href": "https://images-assets.nasa.gov/image/PIA09352/PIA09352~large.jpg",
+  "picture": "apod/2026-10-12-alt.jpg"
+ }
 }

@@ -6,5 +6,6 @@
  "nasaOwned": true,
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/",
- "picture": "apod/2026-10-19.jpg"
+ "picture": "apod/2026-10-19.jpg",
+ "altChecked": true
 }

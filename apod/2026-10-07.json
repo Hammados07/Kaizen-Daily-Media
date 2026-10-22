@@ -6,5 +6,6 @@
  "nasaOwned": false,
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-october-7-supernova-remnant-pa-30/",
- "picture": null
+ "picture": null,
+ "altChecked": true
 }
