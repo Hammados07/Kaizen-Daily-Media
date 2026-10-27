@@ -35,7 +35,15 @@ if (FB) {
   me = { user_id: a.id, username: a.username, account_type: `linked to Page ${pg.name}`, media_count: a.media_count };
 } else me = await call('/me', { fields: 'user_id,username,account_type,media_count' });
 console.log(`Instagram (${FB ? 'Facebook login' : 'Instagram login'}): @${me.username} (${me.account_type}), ${me.media_count} posts`);
+writeFileSync('queue/ig/status.json', JSON.stringify({ checked: new Date().toISOString(), login: FB ? 'facebook' : 'instagram', username: me.username, account: me.account_type, posts: me.media_count }, null, 1) + '\n');
 if (mode === 'check') process.exit(0);
+if (mode === 'dry') { // makes a Reel container from a known video and waits for it, but never publishes it
+  const url = process.argv[3];
+  const c = await call(`/${me.user_id}/media`, { media_type: 'REELS', video_url: url, caption: 'test, not published' }, 'POST');
+  await ready(c.id);
+  const st = JSON.parse(readFileSync('queue/ig/status.json', 'utf8')); st.dryRun = { at: new Date().toISOString(), container: 'FINISHED', published: false };
+  writeFileSync('queue/ig/status.json', JSON.stringify(st, null, 1) + '\n'); console.log('dry run: container ready, not published'); process.exit(0);
+}
 const now = Date.now();
 for (const f of readdirSync('queue/ig').filter((f) => f.endsWith('.json')).sort()) {
   const p = `queue/ig/${f}`, q = JSON.parse(readFileSync(p, 'utf8'));
