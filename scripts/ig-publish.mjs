@@ -4,7 +4,7 @@
 //   "media": ["https://raw.githubusercontent.com/..."], "caption": "..."}. Published entries move to queue/ig/done/.
 import { readdirSync, readFileSync, writeFileSync, renameSync } from 'node:fs';
 const T = process.env.IG_TOKEN, API = 'https://graph.instagram.com';
-if (!T) { console.log('::error::IG_TOKEN secret is missing'); process.exit(1); }
+if (!T) { console.log('::warning::IG_TOKEN secret is not set yet; nothing posted'); process.exit(0); }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function call(path, params = {}, method = 'GET') {
   const u = new URL(API + path);
