@@ -3,7 +3,9 @@
 // Queue: queue/ig/<name>.json = {"when": "<ISO time with offset>", "type": "REELS" | "IMAGE" | "CAROUSEL",
 //   "media": ["https://raw.githubusercontent.com/..."], "caption": "..."}. Published entries move to queue/ig/done/.
 import { readdirSync, readFileSync, writeFileSync, renameSync } from 'node:fs';
-const T = process.env.IG_TOKEN, API = 'https://graph.instagram.com';
+const T = (process.env.IG_TOKEN || '').trim();
+// IGAA... tokens come from Instagram login (graph.instagram.com); EAA... tokens from Facebook login (graph.facebook.com).
+const FB = T.startsWith('EAA'), API = FB ? 'https://graph.facebook.com/v23.0' : 'https://graph.instagram.com';
 if (!T) { console.log('::warning::IG_TOKEN secret is not set yet; nothing posted'); process.exit(0); }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function call(path, params = {}, method = 'GET') {
@@ -24,8 +26,15 @@ async function ready(id) {
   throw new Error('container not ready after 10 minutes');
 }
 const mode = process.argv[2] || 'publish';
-const me = await call('/me', { fields: 'user_id,username,account_type,media_count' });
-console.log(`Instagram: @${me.username} (${me.account_type}), ${me.media_count} posts`);
+let me;
+if (FB) {
+  const pages = (await call('/me/accounts', { fields: 'name,instagram_business_account{id,username,media_count}' })).data || [];
+  const pg = pages.find((x) => x.instagram_business_account);
+  if (!pg) throw new Error('no Facebook Page with a linked Instagram account was found for this token');
+  const a = pg.instagram_business_account;
+  me = { user_id: a.id, username: a.username, account_type: `linked to Page ${pg.name}`, media_count: a.media_count };
+} else me = await call('/me', { fields: 'user_id,username,account_type,media_count' });
+console.log(`Instagram (${FB ? 'Facebook login' : 'Instagram login'}): @${me.username} (${me.account_type}), ${me.media_count} posts`);
 if (mode === 'check') process.exit(0);
 const now = Date.now();
 for (const f of readdirSync('queue/ig').filter((f) => f.endsWith('.json')).sort()) {
