@@ -7,5 +7,17 @@
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/",
  "picture": null,
- "altChecked": 2
+ "altChecked": 2,
+ "alt": {
+  "query": "noctilucent clouds",
+  "nasaId": "iss074e0796136",
+  "title": "Noctilucent clouds are pictured `above far western Kazakhstan",
+  "center": "JSC",
+  "created": "2026-07-06",
+  "description": "iss074e0796136 (July 10, 2026) --- Noctilucent clouds—polar mesospheric clouds illuminated by sunlight just after the Sun has set below the horizon—are pictured from the International Space Station as it orbited 267 miles above far western Kazakhstan. These high-altitude clouds are more easily seen from space than from the ground and form when extremely low temperatures freeze water vapor in the mesosphere during summer months at high latitudes. Credit: NASA/Chris Williams",
+  "page": "https://images.nasa.gov/details/iss074e0796136",
+  "href": "https://images-assets.nasa.gov/image/iss074e0796136/iss074e0796136~large.jpg",
+  "picture": "apod/2026-10-27-alt.jpg",
+  "askedFor": "noctilucent clouds"
+ }
 }
