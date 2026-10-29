@@ -9,11 +9,11 @@ const FB = T.startsWith('EAA'), API = FB ? 'https://graph.facebook.com/v23.0' : 
 if (!T) { console.log('::warning::IG_TOKEN secret is not set yet; nothing posted'); process.exit(0); }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 // any failure before the queue loop is written to status.json (message only, never the token), so it can be read without logs
-process.on('unhandledRejection', (e) => {
+function fail(e) { // the message only, never the token, so the reason can be read without the run log
   const msg = String(e?.message || e).replaceAll(T, '<token>').slice(0, 300);
   writeFileSync('queue/ig/status.json', JSON.stringify({ checked: new Date().toISOString(), failed: msg }, null, 1) + '\n');
   console.log(`::error::${msg}`); process.exit(1);
-});
+}
 async function call(path, params = {}, method = 'GET') {
   const u = new URL(API + path);
   const body = new URLSearchParams({ ...params, access_token: T });
@@ -31,6 +31,7 @@ async function ready(id) {
   }
   throw new Error('container not ready after 10 minutes');
 }
+async function main() {
 const mode = process.argv[2] || 'publish';
 let me;
 if (FB) {
@@ -89,3 +90,5 @@ for (const f of readdirSync('queue/ig').filter((f) => f.endsWith('.json') && f !
     console.log(`::error::${f}: ${q.lastError}`);
   }
 }
+}
+main().catch(fail);
