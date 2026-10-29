@@ -1,9 +1,4 @@
 {
- "checked": "2026-10-28T13:30:09.883Z",
- "login": "instagram",
- "username": "rimilab",
- "account": "MEDIA_CREATOR",
- "posts": 9,
- "lastError": "Cannot read properties of undefined (reading '0')",
- "tries": 1
+ "checked": "2026-10-29T08:52:53.668Z",
+ "failed": "/me: API access blocked. (code 200)"
 }
