@@ -7,5 +7,17 @@
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/",
  "picture": null,
- "altChecked": 2
+ "altChecked": 2,
+ "alt": {
+  "query": "Jupiter Ganymede Io moons",
+  "nasaId": "PIA00600",
+  "title": "Family Portrait of Jupiter Great Red Spot and the Galilean Satellites",
+  "center": "JPL",
+  "created": "1997-11-18",
+  "description": "This \"family portrait,\" a composite of the Jovian system, includes the edge of Jupiter with its Great Red Spot, and Jupiter's four largest moons, known as the Galilean satellites. From top to bottom, the moons shown are Io, Europa, Ganymede and Callisto.  The Great Red Spot, a storm in Jupiter's atmosphere, is at least 300 years old. Winds blow counterclockwise around the Great Red Spot at about 400 kilometers per hour (250 miles per hour). The storm is larger than one Earth diameter from north to south, and more than two Earth diameters from east to west. In this oblique view, the Great Red Spot appears longer in the north-south direction.  Europa, the smallest of the four moons, is about the size of Earth's moon, while Ganymede is the largest moon in the solar system. North is at the top of this composite picture in which the massive planet and its largest satellites have all been scaled to a common factor of 15 kilometers (9 miles) per picture element.  The Solid State Imaging (CCD) system aboard NASA's Galileo spacecraft obtained the Jupiter, Io and Ganymede images in June 1996, while the Europa images were obtained in September 1996. Because Galileo focuses on high resolution imaging of regional areas on Callisto rather than global coverage, the portrait of Callisto is from the 1979 flyby of NASA's Voyager spacecraft.  http://photojournal.jpl.nasa.gov/catalog/PIA00600",
+  "page": "https://images.nasa.gov/details/PIA00600",
+  "href": "https://images-assets.nasa.gov/image/PIA00600/PIA00600~orig.jpg",
+  "picture": "apod/2026-10-28-alt.jpg",
+  "askedFor": "Jupiter Ganymede Io moons"
+ }
 }
