@@ -1,5 +1,11 @@
 {
- "checked": "2026-10-29T11:32:06.372Z",
+ "checked": "2026-10-29T11:33:12.927Z",
  "signedIn": true,
- "scope": "https://www.googleapis.com/auth/youtube.upload"
+ "scope": "https://www.googleapis.com/auth/youtube.upload",
+ "test": {
+  "at": "2026-10-29T11:33:12.927Z",
+  "file": "2026-10-29/coal-drift.mp4",
+  "id": "fJug3kFLRgI",
+  "privacy": "private"
+ }
 }
