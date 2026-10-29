@@ -8,12 +8,18 @@ const T = (process.env.IG_TOKEN || '').trim();
 const FB = T.startsWith('EAA'), API = FB ? 'https://graph.facebook.com/v23.0' : 'https://graph.instagram.com';
 if (!T) { console.log('::warning::IG_TOKEN secret is not set yet; nothing posted'); process.exit(0); }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+// any failure before the queue loop is written to status.json (message only, never the token), so it can be read without logs
+process.on('unhandledRejection', (e) => {
+  const msg = String(e?.message || e).replaceAll(T, '<token>').slice(0, 300);
+  writeFileSync('queue/ig/status.json', JSON.stringify({ checked: new Date().toISOString(), failed: msg }, null, 1) + '\n');
+  console.log(`::error::${msg}`); process.exit(1);
+});
 async function call(path, params = {}, method = 'GET') {
   const u = new URL(API + path);
   const body = new URLSearchParams({ ...params, access_token: T });
   const r = method === 'GET' ? await fetch(u + '?' + body) : await fetch(u, { method, body });
   const j = await r.json().catch(() => ({}));
-  if (!r.ok || j.error) throw new Error(`${path}: ${j.error?.message || r.status}`); // never prints the token
+  if (!r.ok || j.error) throw new Error(`${path}: ${j.error?.message || r.status}${j.error?.code ? ` (code ${j.error.code}${j.error.error_subcode ? '/' + j.error.error_subcode : ''})` : ''}`); // never prints the token
   return j;
 }
 async function ready(id) {
@@ -53,7 +59,7 @@ if (mode === 'dry') { // makes a Reel container from a known video and waits for
   writeFileSync('queue/ig/status.json', JSON.stringify(st, null, 1) + '\n'); console.log('dry run: container ready, not published'); process.exit(0);
 }
 const now = Date.now();
-for (const f of readdirSync('queue/ig').filter((f) => f.endsWith('.json')).sort()) {
+for (const f of readdirSync('queue/ig').filter((f) => f.endsWith('.json') && f !== 'status.json').sort()) {
   const p = `queue/ig/${f}`, q = JSON.parse(readFileSync(p, 'utf8'));
   if (q.publishedId || Date.parse(q.when) > now) continue;
   if (Date.parse(q.when) < now - 36 * 3600e3) { console.log(`::warning::${f} is over a day late; skipped`); continue; }
