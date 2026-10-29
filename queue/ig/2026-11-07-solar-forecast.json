@@ -1,0 +1,8 @@
+{
+ "when": "2026-11-07T08:30:00+05:30",
+ "type": "REELS",
+ "media": [
+  "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-11-07/solar-forecast.mp4"
+ ],
+ "caption": "Two models forecast India's solar power for 2025. Both were wrong.\n\nThey saw five years, 2015 to 2019. A straight line said 92 TWh. A growth curve said 681.\n\nIt was 196. One was 53% too low, the other 247% too high.\n\nFive points cannot tell a line from a curve. A forecast is a range, not a number.\n\nSee forecasts scored every day, free: models.rimilab.com (link in bio)\n\n#forecasting #datascience #machinelearning #solarenergy #analytics #rimilab"
+}

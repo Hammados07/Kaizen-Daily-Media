@@ -1,0 +1,8 @@
+{
+ "when": "2026-10-30T08:30:00+05:30",
+ "type": "REELS",
+ "media": [
+  "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-30/descent.mp4"
+ ],
+ "caption": "Step size 1.90 works. 2.05 throws it all away.\n\nA model learns by rolling downhill on its error. At step size 1.00 the ball hits the bottom in 1 step.\n\nAt 1.90 it bounces wall to wall and still gets there in 30 steps.\n\nAt 2.05 every bounce lands higher. The ball flies off the map. Nothing at 1.90 warns you.\n\nTry it free: models.rimilab.com (link in bio)\n\n#machinelearning #datascience #gradientdescent #ai #deeplearning #rimilab"
+}

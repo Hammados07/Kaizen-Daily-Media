@@ -1,0 +1,8 @@
+{
+ "when": "2026-10-29T19:30:00+05:30",
+ "type": "REELS",
+ "media": [
+  "https://raw.githubusercontent.com/Hammados07/Kaizen-Daily-Media/main/2026-10-29/coal-drift.mp4"
+ ],
+ "caption": "In 2012, coal made 39% of UK electricity. In 2025 it made 0.1%.\n\nTwo models learned from 2003 to 2012. A straight line said 28% for 2025. Same as last year said 39%.\n\nBoth were far off. The models did not change. The world did. Wind went from 5% to 29% of UK power.\n\nTry it free: models.rimilab.com (link in bio)\n\nData: Ember and Energy Institute, via Our World in Data.\n\n#datascience #machinelearning #forecasting #energy #data #rimilab"
+}
