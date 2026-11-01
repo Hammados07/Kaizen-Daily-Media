@@ -7,5 +7,17 @@
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
  "picture": null,
- "altChecked": 2
+ "altChecked": 2,
+ "alt": {
+  "query": "aurora northern lights",
+  "nasaId": "iss006e18372",
+  "title": "Crew Earth Observations (CEO) of the Aurora Borealis and city lights taken during Expedition Six",
+  "center": "JSC",
+  "created": "2003-01-18",
+  "description": "ISS006-E-18372 (January 2003) --- The Aurora Borealis or &#0147;northern lights&#0148; and the Manicouagan Impact Crater reservoir (foreground) in Quebec, Canada, were featured in this photograph taken by astronaut Donald R. Pettit, Expedition 6 NASA ISS science officer, on board the International Space Station (ISS).",
+  "page": "https://images.nasa.gov/details/iss006e18372",
+  "href": "https://images-assets.nasa.gov/image/iss006e18372/iss006e18372~medium.jpg",
+  "picture": "apod/2026-10-31-alt.jpg",
+  "askedFor": "aurora northern lights"
+ }
 }
