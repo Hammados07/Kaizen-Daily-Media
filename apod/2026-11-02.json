@@ -7,5 +7,17 @@
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/",
  "picture": null,
- "altChecked": 2
+ "altChecked": 2,
+ "alt": {
+  "query": "Mars Arsia Mons clouds",
+  "nasaId": "PIA26557",
+  "title": "THEMIS Views Mars' Arsia Mons Volcano",
+  "center": "JPL",
+  "created": "2025-06-06",
+  "description": "NASA's 2001 Mars Odyssey orbiter used its Thermal Emission Imaging System (THEMIS) to capture this view of Arsia Mons, an ancient volcano, while studying the Red Planet's atmosphere, which appears here as a greenish haze above the scene. THEMIS took the image well before dawn on May 2, 2025. The image has been stretched and brightened to improve contrast and processed to remove instrument noise.  The southernmost of the three Tharsis volcanoes, Arsia Mons is 270 miles (450 kilometers) in diameter and almost 12 miles (20 kilometers) high. For comparison, the largest volcano on Earth is Mauna Loa, which measures 75 miles (121 kilometers) in diameter and roughly 6 miles (9 kilometers) high from its base on the seafloor.  A large crater known as a caldera, produced by massive volcanic explosions and collapse, is located at the summit of all of the Tharsis volcanoes. At 72 miles (120 kilometers) wide, the Arsia Mons summit caldera is larger than many volcanoes on Earth.  This type of image shows Mars' \"limb,\" the edge of the planet's horizon. By flipping on its side while in orbit, Odyssey can point THEMIS head-on at the limb and capture images of the Martian atmosphere. This unique view allows scientists to see the structure and shape of dust and water-ice cloud layers and observe how they change over the course of seasons. Understanding Mars' clouds is particularly important for understanding Martian weather and how phenomena like dust storms occur.  This is THEMIS' fourth limb ",
+  "page": "https://images.nasa.gov/details/PIA26557",
+  "href": "https://images-assets.nasa.gov/image/PIA26557/PIA26557~large.jpg",
+  "picture": "apod/2026-11-02-alt.jpg",
+  "askedFor": "Mars Arsia Mons clouds"
+ }
 }
