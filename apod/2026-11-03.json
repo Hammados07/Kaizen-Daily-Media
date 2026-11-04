@@ -7,5 +7,17 @@
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/",
  "picture": null,
- "altChecked": 2
+ "altChecked": 2,
+ "alt": {
+  "query": "comet tail",
+  "nasaId": "iss074e0480485",
+  "title": "This celestial image reveals Comet C/2025 R3 (PANSTARRS) and its faint vertical tail",
+  "center": "JSC",
+  "created": "2026-04-17",
+  "description": "iss074e0480485 (April 17, 2026) --- This celestial image, taken moments before an orbital sunrise, reveals more than an airglow crowning Earth’s horizon—it also captures Comet C/2025 R3 (PANSTARRS) and its faint vertical tail (top center) at a distance of about 50 million miles from our planet. The International Space Station was orbiting 259 miles above the Pacific Ocean at approximately 3:50 a.m. local time when this photograph was taken. Credit: NASA/Chris Williams",
+  "page": "https://images.nasa.gov/details/iss074e0480485",
+  "href": "https://images-assets.nasa.gov/image/iss074e0480485/iss074e0480485~large.jpg",
+  "picture": "apod/2026-11-03-alt.jpg",
+  "askedFor": "comet tail"
+ }
 }
