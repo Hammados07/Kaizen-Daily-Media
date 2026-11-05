@@ -1,0 +1,31 @@
+name: Probe a public URL
+# Manual only. Fetches one public URL from the runner and saves its status, headers and first 3000 characters to probe/result.json,
+# so a changed upstream feed can be inspected. Never use it with a URL that carries a key or token.
+on:
+  workflow_dispatch:
+    inputs:
+      url: { description: public https URL, required: true }
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
+      - run: |
+          node -e '
+          const u = process.argv[1];
+          if (!/^https:\/\//.test(u)) throw new Error("https only");
+          (async () => {
+            const r = await fetch(u, { headers: { "user-agent": "RimiLab-probe/1.0", accept: "application/json,*/*" } });
+            const t = await r.text();
+            let keys = null; try { const j = JSON.parse(t); keys = Array.isArray(j) ? ["<array of " + j.length + ">"] : Object.keys(j); } catch {}
+            require("fs").writeFileSync("probe/result.json", JSON.stringify({ at: new Date().toISOString(), url: u, status: r.status,
+              type: r.headers.get("content-type"), length: t.length, jsonKeys: keys, head: t.slice(0, 3000) }, null, 1) + "\n");
+          })();' "${{ github.event.inputs.url }}"
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add probe && git commit -m "Probe $(date -u +%FT%H:%MZ)" && git pull --rebase -q && git push
