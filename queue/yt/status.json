@@ -1,6 +1,11 @@
 {
- "checked": "2026-11-05T09:55:17.627Z",
+ "checked": "2026-11-05T12:03:51.479Z",
  "signedIn": true,
  "scope": "https://www.googleapis.com/auth/youtube.upload",
- "lastRun": []
+ "test": {
+  "at": "2026-11-05T12:03:51.479Z",
+  "file": "2026-11-05/wind-race.mp4",
+  "id": "GERc7PPKx9k",
+  "privacy": "unlisted"
+ }
 }
