@@ -1,17 +1,6 @@
 {
- "checked": "2026-11-05T18:07:49.694Z",
+ "checked": "2026-11-05T23:43:38.851Z",
  "signedIn": true,
  "scope": "https://www.googleapis.com/auth/youtube.upload",
- "lastRun": [
-  {
-   "f": "2026-11-05-solar-race.json",
-   "id": "5TwH_Mj2wDQ",
-   "privacy": "public"
-  },
-  {
-   "f": "2026-11-05-wind-race.json",
-   "id": "cN0J_LeEmr0",
-   "privacy": "public"
-  }
- ]
+ "lastRun": []
 }
