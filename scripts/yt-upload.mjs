@@ -1,7 +1,7 @@
 // Rimi Lab Publisher: uploads our own videos to our own YouTube channel with the YouTube Data API v3.
 // Uses only the youtube.upload scope (videos.insert, and thumbnails.set for explainers). It reads no other data.
 // Secrets (never printed or written): YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN.
-// Usage: node scripts/yt-upload.mjs check | test <repo path to an mp4> | publish
+// Usage: node scripts/yt-upload.mjs check | test <repo path to an mp4> [private|unlisted] | publish
 // Queue: queue/yt/<name>.json = {"when": "<ISO time with offset>", "file": "<repo path to the mp4>",
 //   "title": "...", "description": "...", "tags": ["..."], "short": true, "thumbnail": "<optional repo path to a jpg>"}
 // Uploaded entries move to queue/yt/done/ with the video id. Results are written to queue/yt/status.json.
@@ -52,8 +52,8 @@ async function main() {
   const base = { signedIn: true, scope };
   if (mode === 'check') { save(base); console.log('signed in; scope:', scope); return; }
   if (mode === 'test') { // a private test upload, used for the audit evidence
-    const file = process.argv[3];
-    const r = await upload(T, { file, title: 'Rimi Lab Publisher test upload', description: 'Private test of our upload tool.', privacy: 'private' });
+    const file = process.argv[3], privacy = process.argv[4] === 'unlisted' ? 'unlisted' : 'private';
+    const r = await upload(T, { file, title: 'Rimi Lab Publisher test upload', description: 'Test of our upload tool.', privacy });
     save({ ...base, test: { at: new Date().toISOString(), file, ...r } }); console.log('test upload', r.id, r.privacy); return;
   }
   const now = Date.now(), done = [];
