@@ -1,11 +1,17 @@
 {
- "checked": "2026-11-05T12:03:51.479Z",
+ "checked": "2026-11-05T18:07:49.694Z",
  "signedIn": true,
  "scope": "https://www.googleapis.com/auth/youtube.upload",
- "test": {
-  "at": "2026-11-05T12:03:51.479Z",
-  "file": "2026-11-05/wind-race.mp4",
-  "id": "GERc7PPKx9k",
-  "privacy": "unlisted"
- }
+ "lastRun": [
+  {
+   "f": "2026-11-05-solar-race.json",
+   "id": "5TwH_Mj2wDQ",
+   "privacy": "public"
+  },
+  {
+   "f": "2026-11-05-wind-race.json",
+   "id": "cN0J_LeEmr0",
+   "privacy": "public"
+  }
+ ]
 }
