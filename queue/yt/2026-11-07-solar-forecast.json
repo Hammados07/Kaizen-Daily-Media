@@ -1,0 +1,14 @@
+{
+ "when": "2026-11-07T18:00:00+05:30",
+ "file": "2026-11-07/solar-forecast.mp4",
+ "title": "Two forecasts, both wrong",
+ "description": "A straight line and a growth curve, both fitted to India's solar power 2015 to 2019, forecast 92 and 681 TWh for 2025. It was 196.\n\nSee forecasts scored against reality every day, free: https://models.rimilab.com/#/models/forecast-check\n\nData: Ember and Energy Institute, via Our World in Data (CC BY 4.0).\n\n#forecasting #datascience #shorts",
+ "tags": [
+  "forecasting",
+  "data science",
+  "machine learning",
+  "solar energy",
+  "statistics"
+ ],
+ "short": true
+}

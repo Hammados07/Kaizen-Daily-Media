@@ -1,0 +1,12 @@
+{
+ "when": "2026-11-10T18:00:00+05:30",
+ "file": "2026-11-10/pca.mp4",
+ "title": "Which way do you hold the light?",
+ "description": "A flat shadow of a cloud of dots. Which way do you hold the light?\nOne angle keeps 95% of the spread.\nTry the lesson free: https://models.rimilab.com/#/models/pca",
+ "tags": [
+  "machine learning",
+  "PCA",
+  "data science"
+ ],
+ "short": true
+}

@@ -1,0 +1,14 @@
+{
+ "when": "2026-11-14T18:00:00+05:30",
+ "file": "2026-11-14/orbit-dish.mp4",
+ "title": "Why your TV dish never moves",
+ "description": "The space station laps Earth in 92.56 minutes. At 35,786 km, one lap takes 23.93 hours, so a TV satellite stays over one spot.\nMove a satellite up and down in the free orbit lab: https://cosmos.rimilab.com/#/universe/orbitheight\nNumbers from a circular orbit with NASA's Earth fact sheet values.",
+ "tags": [
+  "orbit",
+  "satellite",
+  "space station",
+  "physics",
+  "rimilab"
+ ],
+ "short": true
+}

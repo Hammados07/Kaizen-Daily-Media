@@ -1,0 +1,13 @@
+{
+ "when": "2026-11-06T18:00:00+05:30",
+ "file": "2026-11-06/knn.mp4",
+ "title": "Why a perfect score can mean nothing",
+ "description": "A perfect score on the dots it studied means nothing. Move k and watch the unseen score.\nTry it free: https://models.rimilab.com/#/models/knn",
+ "tags": [
+  "machine learning",
+  "knn",
+  "overfitting",
+  "rimilab"
+ ],
+ "short": true
+}

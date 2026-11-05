@@ -1,0 +1,13 @@
+{
+ "when": "2026-11-05T18:00:00+05:30",
+ "file": "2026-11-05/wind-race.mp4",
+ "title": "Brazil's wind power race, 2010 to 2025",
+ "description": "Brazil made almost no wind power in 2010. By 2025 it was fourth in the world.\nFrom 22 TWh in 2015 to 118 TWh in 2025, doubling every 4.1 years.\nTry compounding yourself: https://rimilab.com/#/mba/time-value\nData: Ember and Energy Institute, via Our World in Data (CC BY 4.0).",
+ "tags": [
+  "wind power",
+  "brazil",
+  "data",
+  "compounding"
+ ],
+ "short": true
+}
