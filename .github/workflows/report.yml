@@ -1,0 +1,28 @@
+name: Weekly numbers report
+# Every Monday at 06:11 IST, reads the last 28 days of YouTube and Instagram numbers into reports/latest.md.
+# The daily Short, weekly story and explainer tasks read it when they pick topics.
+on:
+  schedule:
+    - cron: '41 0 * * 1'
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
+      - run: node scripts/report.mjs
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+      - name: Save the report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports
+          git diff --cached --quiet || { git commit -m "Weekly numbers $(date -u +%F)"; git pull --rebase -q; git push; }
