@@ -51,7 +51,16 @@ export function playlistFor({ playlist, title = '', description = '', file = '',
   if (/mba\.rimilab\.com|rimilab\.com\/#\/mba/.test(description)) return 'mba';
   return null;
 }
-async function gapi(T, method, path, body) {
+async function gapi(T, method, path, body, tries = 4) {
+  for (let i = 1; ; i++) {
+    try { return await gapi1(T, method, path, body); }
+    catch (e) { // a new playlist can answer 404 or 409 for a short while after it is made
+      if (i >= tries || !/: (404|409|5\d\d) /.test(e.message)) throw e;
+      await new Promise((ok) => setTimeout(ok, 8000 * i));
+    }
+  }
+}
+async function gapi1(T, method, path, body) {
   const r = await fetch(`https://www.googleapis.com/youtube/v3/${path}`, { method,
     headers: { Authorization: `Bearer ${T}`, 'Content-Type': 'application/json' }, body: body ? JSON.stringify(body) : undefined });
   const j = await r.json().catch(() => ({}));
