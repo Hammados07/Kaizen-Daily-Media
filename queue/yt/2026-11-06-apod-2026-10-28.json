@@ -13,5 +13,5 @@
  ],
  "short": true,
  "lastError": "spawnSync ffprobe ENOENT",
- "tries": 1
+ "tries": 2
 }
