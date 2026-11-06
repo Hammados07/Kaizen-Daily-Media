@@ -1,0 +1,8 @@
+{
+ "when": "2026-11-11T18:00:00+05:30",
+ "file": "2026-11-11/gravity.mp4",
+ "title": "How fast must you throw to leave Earth?",
+ "description": "At 8.0 km/s the ball climbs 6,670 km and falls back. At 11.2 km/s it never does. Earth's escape speed is 11.186 km/s.\nTry the lab: https://cosmos.rimilab.com/#/orbits/gravity",
+ "tags": ["astronomy", "space", "escape velocity", "gravity", "rimilab"],
+ "short": true
+}
