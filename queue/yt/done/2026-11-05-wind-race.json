@@ -12,5 +12,6 @@
  "short": true,
  "videoId": "cN0J_LeEmr0",
  "privacyStatus": "public",
- "uploadedAt": "2026-11-05T18:07:49.694Z"
+ "uploadedAt": "2026-11-05T18:07:49.694Z",
+ "followupError": "playlistItems: 409 The operation was aborted."
 }

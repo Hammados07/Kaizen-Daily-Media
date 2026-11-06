@@ -13,5 +13,6 @@
  "short": true,
  "videoId": "5TwH_Mj2wDQ",
  "privacyStatus": "public",
- "uploadedAt": "2026-11-05T18:07:48.177Z"
+ "uploadedAt": "2026-11-05T18:07:48.177Z",
+ "followupError": "playlistItems: 404 The playlist identified with the request's <code>playlistId</code> parameter cannot be found."
 }
