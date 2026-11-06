@@ -1,0 +1,14 @@
+{
+ "when": "2026-11-06T16:30:00+05:30",
+ "file": "2026-10-30/descent.mp4",
+ "title": "1.90 works. 2.05 breaks it.",
+ "description": "Gradient descent on a round bowl. Step size 1.00 reaches the bottom in 1 step, 1.90 in 30 steps, and 2.05 flies off the map.\n\nFind the edge yourself, free: https://models.rimilab.com/#/models/gradient-descent",
+ "tags": [
+  "gradient descent",
+  "learning rate",
+  "machine learning",
+  "deep learning",
+  "data science"
+ ],
+ "short": true
+}

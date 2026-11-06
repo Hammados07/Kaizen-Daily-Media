@@ -4,8 +4,11 @@
 // Usage: node scripts/yt-upload.mjs check | test <repo path to an mp4> [private|unlisted] | publish
 // Queue: queue/yt/<name>.json = {"when": "<ISO time with offset>", "file": "<repo path to the mp4>",
 //   "title": "...", "description": "...", "tags": ["..."], "short": true, "thumbnail": "<optional repo path to a jpg>"}
+// Every upload ends with the 4-second "Like and subscribe" card (scripts/endcard.mjs), unless the entry says "endcard": false.
 // Uploaded entries move to queue/yt/done/ with the video id. Results are written to queue/yt/status.json.
-import { readdirSync, readFileSync, writeFileSync, renameSync, statSync, mkdirSync } from 'node:fs';
+import { readdirSync, readFileSync, writeFileSync, renameSync, statSync, mkdirSync, rmSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { addEndcard } from './endcard.mjs';
 const { YT_CLIENT_ID: ID = '', YT_CLIENT_SECRET: SECRET = '', YT_REFRESH_TOKEN: REFRESH = '' } = process.env;
 const STATUS = 'queue/yt/status.json';
 mkdirSync('queue/yt/done', { recursive: true });
@@ -22,7 +25,14 @@ async function accessToken() {
   return { token: j.access_token, scope: j.scope };
 }
 
-async function upload(T, q) {
+async function upload(T, q0) {
+  const q = { ...q0 };
+  let tmp = null;
+  if (q.endcard !== false) { tmp = `${tmpdir()}/yt-${Date.now()}.mp4`; addEndcard(q.file, tmp); q.file = tmp; }
+  try { return await send(T, q); } finally { if (tmp) rmSync(tmp, { force: true }); }
+}
+
+async function send(T, q) {
   const size = statSync(q.file).size;
   const title = (q.title + (q.short && !/#shorts/i.test(q.title) ? ' #shorts' : '')).slice(0, 100);
   const meta = {

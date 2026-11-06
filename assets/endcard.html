@@ -1,0 +1,37 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Rec;src:url(recursive.woff2);font-weight:300 1000}
+@font-face{font-family:Baloo;src:url(baloo-latin-600.woff2);font-weight:600}
+*{box-sizing:border-box;margin:0}
+body{background:#08121a}
+.c{position:relative;overflow:hidden;color:#e9f0ee;font-family:Rec;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
+ background:radial-gradient(90% 70% at 20% 10%,#1d3a48,transparent 70%),linear-gradient(165deg,#142a33,#08121a)}
+.mark{font-family:Baloo;display:flex;align-items:center;gap:.3em;letter-spacing:-.01em}
+.mark i{width:.38em;height:.38em;border-radius:50%;display:inline-block}
+h1{font-family:Baloo;font-weight:600;line-height:1.02}
+h1 em{font-style:normal;color:#ffc13d}
+.row{display:flex;gap:.6em;align-items:center;justify-content:center}
+.btn{display:flex;align-items:center;gap:.4em;font-weight:800;border-radius:999px;padding:.45em 1em}
+.like{background:rgb(255 255 255/.1);box-shadow:inset 0 0 0 3px rgb(255 255 255/.25)}
+.sub{background:#e62117;color:#fff}
+.handle{color:#ffc13d;font-weight:800}
+.small{color:#aec0c6}
+svg{width:1.1em;height:1.1em;fill:currentColor}
+#p{width:1080px;height:1920px;gap:70px;padding:0 70px}
+#p .mark{font-size:64px}#p h1{font-size:128px}#p .row{font-size:56px;flex-direction:column;gap:36px}#p .handle{font-size:60px}#p .small{font-size:40px}
+.pb{display:none}#p .pb{display:inline}
+#l{width:1920px;height:1080px;gap:44px}
+#l .mark{font-size:56px}#l h1{font-size:118px}#l .row{font-size:50px}#l .handle{font-size:52px}#l .small{font-size:34px}
+</style></head><body>
+<template id="t">
+ <div class="mark">rimi lab <i style="background:#2348d8"></i><i style="background:#f2a900"></i></div>
+ <h1>Enjoyed it?<br><em>Learn one<br class="pb"> more thing.</em></h1>
+ <div class="row">
+  <span class="btn like"><svg viewBox="0 0 24 24"><path d="M2 21h4V9H2v12zm20-11a2 2 0 0 0-2-2h-6.3l1-4.6v-.3c0-.4-.2-.8-.4-1.1L13.2 1 6.6 7.6C6.2 8 6 8.5 6 9v10a2 2 0 0 0 2 2h9c.8 0 1.5-.5 1.8-1.2l3-7.1c.1-.2.2-.5.2-.7v-2z"/></svg>Like</span>
+  <span class="btn sub"><svg viewBox="0 0 24 24"><path d="M12 22a2 2 0 0 0 2-2h-4a2 2 0 0 0 2 2zm6-6v-5c0-3.1-1.6-5.6-4.5-6.3V4a1.5 1.5 0 0 0-3 0v.7C7.6 5.4 6 7.9 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>Subscribe</span>
+ </div>
+ <div class="handle">@rimilabs</div>
+ <div class="small">New Shorts every day. Free labs at rimilab.com</div>
+</template>
+<section class="c" id="p"></section><section class="c" id="l"></section>
+<script>for(const id of ['p','l'])document.getElementById(id).append(document.getElementById('t').content.cloneNode(true))</script>
+</body></html>

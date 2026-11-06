@@ -1,5 +1,5 @@
 name: Publish to YouTube
-# Rimi Lab Publisher. Every 30 minutes, uploads anything in queue/yt/ that is due to our own channel.
+# Rimi Lab Publisher. Watches the queue and uploads anything in queue/yt/ that is due to our own channel.
 # Uses the YT_CLIENT_ID, YT_CLIENT_SECRET and YT_REFRESH_TOKEN secrets only.
 on:
   schedule:
@@ -17,21 +17,36 @@ on:
         default: private
 permissions:
   contents: write
+  actions: write
 concurrency: { group: youtube, cancel-in-progress: false }
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with: { node-version: 22 }
-      - run: node scripts/yt-upload.mjs ${{ github.event.inputs.mode || 'publish' }} "${{ github.event.inputs.file }}" "${{ github.event.inputs.privacy }}"
+      - name: Run once (manual check, test or dry)
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.mode != 'publish'
+        run: node scripts/yt-upload.mjs ${{ github.event.inputs.mode || 'publish' }} "${{ github.event.inputs.file }}" "${{ github.event.inputs.privacy }}"
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      - name: Watch the queue and publish on time
+        if: github.event_name == 'schedule' || github.event.inputs.mode == 'publish'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          scripts/watch-queue.sh queue/yt videoId YouTube yt.yml -- node scripts/yt-upload.mjs publish
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
       - name: Save the queue
-        if: always()
+        if: always() && github.event_name == 'workflow_dispatch' && github.event.inputs.mode != 'publish'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

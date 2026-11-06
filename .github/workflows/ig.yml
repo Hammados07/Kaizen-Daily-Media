@@ -1,5 +1,5 @@
 name: Publish to Instagram
-# Every 30 minutes, posts anything in queue/ig/ that is due. Uses the IG_TOKEN secret only.
+# Watches the queue and posts anything in queue/ig/ that is due. Uses the IG_TOKEN secret only.
 on:
   schedule:
     - cron: '7,37 * * * *'
@@ -13,19 +13,32 @@ on:
         default: ''
 permissions:
   contents: write
+  actions: write
 concurrency: { group: instagram, cancel-in-progress: false }
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
-      - run: node scripts/ig-publish.mjs ${{ github.event.inputs.mode || 'publish' }} "${{ github.event.inputs.video_url }}"
+      - name: Run once (manual check, test or dry)
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.mode != 'publish'
+        run: node scripts/ig-publish.mjs ${{ github.event.inputs.mode || 'publish' }} "${{ github.event.inputs.video_url }}"
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+      - name: Watch the queue and publish on time
+        if: github.event_name == 'schedule' || github.event.inputs.mode == 'publish'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          scripts/watch-queue.sh queue/ig publishedId Instagram ig.yml -- node scripts/ig-publish.mjs publish
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
       - name: Save the queue
-        if: always()
+        if: always() && github.event_name == 'workflow_dispatch' && github.event.inputs.mode != 'publish'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
