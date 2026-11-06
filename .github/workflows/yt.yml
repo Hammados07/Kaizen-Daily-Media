@@ -27,6 +27,8 @@ jobs:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with: { node-version: 22 }
+      - name: Install ffmpeg (for the end card)
+        run: command -v ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null; }
       - name: Run once (manual check, test or dry)
         if: github.event_name == 'workflow_dispatch' && github.event.inputs.mode != 'publish'
         run: node scripts/yt-upload.mjs ${{ github.event.inputs.mode || 'publish' }} "${{ github.event.inputs.file }}" "${{ github.event.inputs.privacy }}"
