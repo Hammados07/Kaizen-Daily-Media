@@ -13,5 +13,8 @@
  ],
  "short": true,
  "lastError": "spawnSync ffprobe ENOENT",
- "tries": 2
+ "tries": 2,
+ "videoId": "TUkBZktgA3M",
+ "privacyStatus": "public",
+ "uploadedAt": "2026-11-06T09:38:03.761Z"
 }
