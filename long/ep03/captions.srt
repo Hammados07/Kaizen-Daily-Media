@@ -1,0 +1,336 @@
+1
+00:00:01,200 --> 00:00:09,008
+Four hundred kilometres above us, Earth's gravity is still
+eighty-nine percent as strong as it is here on the ground.
+
+2
+00:00:09,328 --> 00:00:12,123
+Yet the astronauts on
+the space station float.
+
+3
+00:00:12,443 --> 00:00:14,619
+Their water floats in round drops.
+
+4
+00:00:14,939 --> 00:00:16,795
+So where did gravity go?
+
+5
+00:00:17,115 --> 00:00:18,757
+It did not go anywhere.
+
+6
+00:00:19,077 --> 00:00:22,917
+In five minutes, you will know
+what is really happening up there.
+
+7
+00:00:24,137 --> 00:00:25,524
+Start in a park.
+
+8
+00:00:25,844 --> 00:00:29,599
+Throw a ball, and it curves down
+and lands a few steps away.
+
+9
+00:00:29,919 --> 00:00:31,135
+Throw harder.
+
+10
+00:00:31,455 --> 00:00:34,015
+It still falls, but it lands further away.
+
+11
+00:00:34,335 --> 00:00:35,807
+The fall is the same.
+
+12
+00:00:36,127 --> 00:00:39,689
+Only the distance it travels
+before it lands has changed.
+
+13
+00:00:40,909 --> 00:00:45,240
+Isaac Newton pictured this with
+a cannon on a very tall mountain.
+
+14
+00:00:45,560 --> 00:00:49,144
+Fire the ball faster, and it
+lands further round the Earth.
+
+15
+00:00:49,464 --> 00:00:52,557
+Fire it fast enough, and
+it never lands at all.
+
+16
+00:00:52,877 --> 00:00:58,488
+The Earth is round, so the ground curves away
+under the ball as fast as the ball falls.
+
+17
+00:00:58,808 --> 00:01:00,835
+It falls all the way around.
+
+18
+00:01:01,155 --> 00:01:05,656
+Newton's picture was printed in 1728.
+
+19
+00:01:05,976 --> 00:01:08,813
+That endless fall is
+what we call an orbit.
+
+20
+00:01:10,033 --> 00:01:15,132
+Let us put real numbers on it, for one
+second at four hundred kilometres up.
+
+21
+00:01:15,452 --> 00:01:20,551
+In that second, the station moves seven
+point six seven kilometres sideways.
+
+22
+00:01:20,871 --> 00:01:24,391
+Gravity pulls it down by
+about four point three metres.
+
+23
+00:01:24,711 --> 00:01:31,985
+And over seven point six seven kilometres, the round
+Earth curves away by about four point three metres too.
+
+24
+00:01:32,305 --> 00:01:34,567
+So the station falls, and misses.
+
+25
+00:01:34,887 --> 00:01:36,657
+Every second, all day.
+
+26
+00:01:37,877 --> 00:01:43,211
+At four hundred kilometres, its pull is
+eighty-nine percent of what you feel now.
+
+27
+00:01:43,531 --> 00:01:47,755
+The station is only a little further
+from Earth's centre than you are.
+
+28
+00:01:48,075 --> 00:01:55,221
+Six thousand seven hundred and seventy-eight kilometres,
+against six thousand three hundred and seventy-eight.
+
+29
+00:01:56,441 --> 00:01:58,724
+So why do the astronauts float?
+
+30
+00:01:59,044 --> 00:02:00,751
+Because they are falling too.
+
+31
+00:02:01,071 --> 00:02:06,553
+The station, the crew, the pens and the
+water all fall together, at the same rate.
+
+32
+00:02:06,873 --> 00:02:11,823
+You feel this for a moment on a fairground
+drop ride, when your stomach lifts.
+
+33
+00:02:12,143 --> 00:02:14,511
+Astronauts feel it all day long.
+
+34
+00:02:15,731 --> 00:02:17,181
+Now the key idea.
+
+35
+00:02:17,501 --> 00:02:20,061
+The sideways speed is not a free choice.
+
+36
+00:02:20,381 --> 00:02:22,067
+It is set by the height.
+
+37
+00:02:22,387 --> 00:02:25,928
+Lower down, gravity pulls
+harder, so you fall faster.
+
+38
+00:02:26,248 --> 00:02:29,576
+To keep missing the ground,
+you must move faster too.
+
+39
+00:02:29,896 --> 00:02:35,571
+Higher up, gravity is weaker, so the right
+speed is lower, and the trip around is longer.
+
+40
+00:02:36,791 --> 00:02:39,052
+Here are the numbers from the lab.
+
+41
+00:02:39,372 --> 00:02:44,407
+At two hundred and eighty kilometres,
+one orbit takes ninety point one minutes.
+
+42
+00:02:44,727 --> 00:02:53,623
+At four hundred kilometres, it takes ninety-two point six minutes,
+at about twenty-seven thousand six hundred kilometres an hour.
+
+43
+00:02:53,943 --> 00:02:59,489
+At two thousand kilometres, one lap stretches
+to one hundred and twenty-seven minutes.
+
+44
+00:02:59,809 --> 00:03:04,951
+NASA says each space station orbit
+takes ninety to ninety-three minutes.
+
+45
+00:03:05,271 --> 00:03:11,905
+In the lab, that is a height of about two hundred and
+seventy-four to four hundred and twenty-one kilometres.
+
+46
+00:03:13,125 --> 00:03:15,856
+Keep climbing, and each
+orbit takes longer.
+
+47
+00:03:16,176 --> 00:03:25,733
+At one special height, thirty-five thousand seven hundred and eighty-six
+kilometres, one orbit takes twenty-three point nine three hours.
+
+48
+00:03:26,053 --> 00:03:30,533
+That is how long Earth takes to spin
+once, measured against the stars.
+
+49
+00:03:30,853 --> 00:03:34,203
+From your roof, it seems
+to hang still in one spot.
+
+50
+00:03:34,523 --> 00:03:37,488
+That is why a TV dish never has to move.
+
+51
+00:03:38,708 --> 00:03:40,735
+Here is the strangest part.
+
+52
+00:03:41,055 --> 00:03:45,321
+Say your spacecraft is behind the
+station, and you want to catch up.
+
+53
+00:03:45,641 --> 00:03:47,433
+On a road, you would speed up.
+
+54
+00:03:47,753 --> 00:03:49,460
+In orbit, that backfires.
+
+55
+00:03:49,780 --> 00:03:53,812
+Push forwards, and you rise to
+a higher orbit, which is slower.
+
+56
+00:03:54,132 --> 00:03:55,839
+You fall further behind.
+
+57
+00:03:57,059 --> 00:03:58,616
+So you brake instead.
+
+58
+00:03:58,936 --> 00:04:04,227
+You drop to a lower, faster orbit, gain on
+the station, and then climb to meet it.
+
+59
+00:04:04,547 --> 00:04:10,669
+In the lab, an orbit just ten kilometres lower
+is about twelve seconds shorter, every lap.
+
+60
+00:04:11,889 --> 00:04:14,940
+Here it is in the free
+Rimi Lab Cosmos lab.
+
+61
+00:04:15,260 --> 00:04:21,639
+Set the height to four hundred kilometres, and
+one orbit takes ninety-two point five six minutes.
+
+62
+00:04:21,959 --> 00:04:26,801
+Slide down to two hundred and eighty,
+and it drops to ninety point one one.
+
+63
+00:04:27,121 --> 00:04:32,220
+Slide up to two thousand, and it grows to
+one hundred and twenty-seven point two.
+
+64
+00:04:33,440 --> 00:04:35,168
+Three things to remember.
+
+65
+00:04:35,488 --> 00:04:40,395
+One, an orbit is falling sideways, fast
+enough to keep missing the ground.
+
+66
+00:04:40,715 --> 00:04:45,344
+Two, gravity is still there, but astronauts
+fall together with their station.
+
+67
+00:04:45,664 --> 00:04:47,605
+Three, height sets the speed.
+
+68
+00:04:47,925 --> 00:04:50,464
+Lower is faster, and higher is slower.
+
+69
+00:04:51,684 --> 00:04:53,476
+Tonight, look for the station.
+
+70
+00:04:53,796 --> 00:04:57,657
+It looks like a bright star that
+moves steadily across the sky.
+
+71
+00:04:57,977 --> 00:05:02,372
+Try the orbit lab for free at
+Rimi Lab Cosmos, link below.
+
+72
+00:05:02,692 --> 00:05:06,937
+Next time, we go back to work,
+with one more idea from business.
+
+73
+00:05:07,257 --> 00:05:08,388
+See you then.
+

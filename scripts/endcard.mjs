@@ -1,11 +1,12 @@
-// Adds the 4-second "Like and subscribe" end card to a video for YouTube.
-// Portrait videos get assets/endcard-portrait.png, landscape ones assets/endcard-landscape.png.
-// The video's own sound fades out at the cut and a soft chime (assets/endcard.wav, made in code) plays under the card. The original file is not changed.
+// Adds the "Like and subscribe" end card to a video for YouTube.
+// Portrait videos (Shorts) get a 4-second card, assets/endcard-portrait.png.
+// Landscape videos (explainers) get a 10-second card, assets/endcard-landscape-long.png, with the right half left clear
+// so YouTube end screen elements (watch next, subscribe) can sit there. YouTube needs at least 5 seconds for those.
+// The video's own sound fades out at the cut and a soft chime (assets/endcard.wav or endcard-long.wav, made in code) plays under the card. The original file is not changed.
 // Usage: node scripts/endcard.mjs <in.mp4> <out.mp4>   (needs ffmpeg and ffprobe)
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 
-const CARD_SECONDS = 4;
 const here = (p) => fileURLToPath(new URL(`../${p}`, import.meta.url));
 
 export function addEndcard(input, output) {
@@ -15,9 +16,12 @@ export function addEndcard(input, output) {
   const W = v.width, H = v.height, D = Number(info.format.duration);
   const [n, d] = String(v.avg_frame_rate || v.r_frame_rate || '30/1').split('/').map(Number);
   const fps = d ? Math.round((n / d) * 100) / 100 : 30;
-  const card = here(W >= H ? 'assets/endcard-landscape.png' : 'assets/endcard-portrait.png');
+  const wide = W >= H;
+  const CARD_SECONDS = wide ? 10 : 4;
+  const card = here(wide ? 'assets/endcard-landscape-long.png' : 'assets/endcard-portrait.png');
+  const chime = here(wide ? 'assets/endcard-long.wav' : 'assets/endcard.wav');
   const audioIn = hasAudio ? '[0:a]' : '[3:a]';
-  const args = ['-y', '-v', 'error', '-i', input, '-loop', '1', '-framerate', String(fps), '-t', String(CARD_SECONDS), '-i', card, '-i', here('assets/endcard.wav')];
+  const args = ['-y', '-v', 'error', '-i', input, '-loop', '1', '-framerate', String(fps), '-t', String(CARD_SECONDS), '-i', card, '-i', chime];
   if (!hasAudio) args.push('-f', 'lavfi', '-t', String(D), '-i', 'anullsrc=r=48000:cl=stereo');
   args.push('-filter_complex',
     `[1:v]scale=${W}:${H}:force_original_aspect_ratio=decrease,pad=${W}:${H}:(ow-iw)/2:(oh-ih)/2:color=0x08121a,setsar=1,format=yuv420p,fps=${fps}[c];` +

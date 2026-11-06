@@ -21,6 +21,11 @@ svg{width:1.1em;height:1.1em;fill:currentColor}
 .pb{display:none}#p .pb{display:inline}
 #l{width:1920px;height:1080px;gap:44px}
 #l .mark{font-size:56px}#l h1{font-size:118px}#l .row{font-size:50px}#l .handle{font-size:52px}#l .small{font-size:34px}
+#w{width:1920px;height:1080px;flex-direction:row;justify-content:flex-start;align-items:stretch;text-align:left}
+#w .left{width:46%;padding:0 0 0 110px;display:flex;flex-direction:column;justify-content:center;gap:40px}
+#w .pb{display:inline}#w .mark{font-size:52px}#w h1{font-size:100px}#w .row{font-size:44px;justify-content:flex-start}#w .handle{font-size:48px}#w .small{font-size:30px}
+#w .right{flex:1;display:flex;flex-direction:column;justify-content:center;gap:56px;padding:0 110px 0 60px}
+#w .slot{height:300px;border-radius:24px;border:3px dashed rgb(255 255 255/.16);display:flex;align-items:flex-end;padding:20px 26px;color:#7d9097;font-size:30px;font-weight:700}
 </style></head><body>
 <template id="t">
  <div class="mark">rimi lab <i style="background:#2348d8"></i><i style="background:#f2a900"></i></div>
@@ -33,5 +38,6 @@ svg{width:1.1em;height:1.1em;fill:currentColor}
  <div class="small">New Shorts every day. Free labs at rimilab.com</div>
 </template>
 <section class="c" id="p"></section><section class="c" id="l"></section>
-<script>for(const id of ['p','l'])document.getElementById(id).append(document.getElementById('t').content.cloneNode(true))</script>
+<section class="c" id="w"><div class="left"></div><div class="right"><div class="slot">Watch next</div><div class="slot">More from the labs</div></div></section>
+<script>for(const id of ['p','l'])document.getElementById(id).append(document.getElementById('t').content.cloneNode(true));document.querySelector('#w .left').append(document.getElementById('t').content.cloneNode(true));document.querySelector('#w .small').textContent='Free labs at rimilab.com';</script>
 </body></html>
