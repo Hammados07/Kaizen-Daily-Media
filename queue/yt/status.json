@@ -1,7 +1,19 @@
 {
- "checked": "2026-11-06T10:38:36.247Z",
+ "checked": "2026-11-06T10:40:25.760Z",
  "signedIn": true,
- "scope": "https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/yt-analytics.readonly",
- "lastRun": [],
- "followups": []
+ "scope": "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload",
+ "backfill": {
+  "videos": 22,
+  "added": {
+   "apod": 6,
+   "mba": 6,
+   "cosmos": 4,
+   "models": 2,
+   "explainers": 2
+  },
+  "skipped": [
+   "Rimi Lab Publisher test upload",
+   "Rimi Lab Publisher test upload"
+  ]
+ }
 }

@@ -1,10 +1,42 @@
 {
  "playlists": {
   "mba": "PLTSh8uP5bgJo",
-  "apod": "PLXh75sUur2io"
+  "apod": "PLXh75sUur2io",
+  "cosmos": "PLe0lfXfLLiiM",
+  "models": "PLNEnsVPquI38",
+  "explainers": "PLOF-PRK7Kpv4"
  },
  "added": {
-  "mba": [],
-  "apod": []
- }
+  "mba": [
+   "cN0J_LeEmr0",
+   "5TwH_Mj2wDQ",
+   "TcNHPP9rUzA",
+   "-FlzC593eYg",
+   "BL4BPKpPt_s",
+   "Djc-2_7_j-g"
+  ],
+  "apod": [
+   "TUkBZktgA3M",
+   "d-97smFD7-8",
+   "89R55QscQ4w",
+   "NBtGW1oNhBQ",
+   "YOXA5fKZ5ac",
+   "gZcn9Ezmfhw"
+  ],
+  "cosmos": [
+   "Uw6r_KwbJlA",
+   "GEJW41LFb1Y",
+   "hlQaaCcqyWw",
+   "xLMZjVuoKKo"
+  ],
+  "models": [
+   "GM73luocwuM",
+   "97DRgTN2v1c"
+  ],
+  "explainers": [
+   "e9dVfUtTGh0",
+   "GAmEZ7B8MJ0"
+  ]
+ },
+ "backfilled": "2026-11-06T10:40:25.759Z"
 }
