@@ -18,7 +18,8 @@ on:
 permissions:
   contents: write
   actions: write
-concurrency: { group: youtube, cancel-in-progress: false }
+# The queue watcher runs one at a time; manual checks and tests use their own lane so they never wait behind it.
+concurrency: { group: "youtube-${{ (github.event_name == 'schedule' || github.event.inputs.mode == 'publish') && 'publish' || 'manual' }}", cancel-in-progress: false }
 jobs:
   publish:
     runs-on: ubuntu-latest
