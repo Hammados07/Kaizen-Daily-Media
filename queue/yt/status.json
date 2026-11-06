@@ -1,19 +1,19 @@
 {
- "checked": "2026-11-06T10:40:25.760Z",
+ "checked": "2026-11-06T11:00:24.506Z",
  "signedIn": true,
- "scope": "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload",
- "backfill": {
-  "videos": 22,
-  "added": {
-   "apod": 6,
-   "mba": 6,
-   "cosmos": 4,
-   "models": 2,
-   "explainers": 2
-  },
-  "skipped": [
-   "Rimi Lab Publisher test upload",
-   "Rimi Lab Publisher test upload"
-  ]
- }
+ "scope": "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.force-ssl",
+ "lastRun": [
+  {
+   "f": "2026-11-06-descent.json",
+   "id": "JSLNWPqhr9E",
+   "privacy": "public"
+  }
+ ],
+ "followups": [
+  "2026-11-05-solar-race.json: playlist mba",
+  "2026-11-05-wind-race.json: playlist mba",
+  "2026-11-06-apod-2026-10-28.json: playlist apod",
+  "2026-11-06-apod.json: playlist apod",
+  "2026-11-06-descent.json: playlist models"
+ ]
 }
