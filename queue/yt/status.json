@@ -1,6 +1,12 @@
 {
- "checked": "2026-11-06T03:43:41.386Z",
+ "checked": "2026-11-06T08:15:40.793Z",
  "signedIn": true,
  "scope": "https://www.googleapis.com/auth/youtube.upload",
- "lastRun": []
+ "lastRun": [
+  {
+   "f": "2026-11-06-apod.json",
+   "id": "d-97smFD7-8",
+   "privacy": "public"
+  }
+ ]
 }
