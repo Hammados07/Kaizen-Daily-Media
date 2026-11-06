@@ -11,5 +11,7 @@
   "nasa",
   "astronomy"
  ],
- "short": true
+ "short": true,
+ "lastError": "spawnSync ffprobe ENOENT",
+ "tries": 1
 }
