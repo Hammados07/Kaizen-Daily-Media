@@ -4,7 +4,39 @@
     "slot": "am",
     "theme": "People skills",
     "title": "The 200-millisecond conversation",
-    "recall": "How long is the typical gap between turns in a conversation?",
-    "answer": "About 200 milliseconds. We plan our reply while the other person is still talking."
+    "recall": "About how long is the typical gap between turns in conversation?",
+    "answer": "About 200 milliseconds, a fifth of a second."
+  },
+  {
+    "date": "2026-11-05",
+    "slot": "pm",
+    "theme": "AI and tech",
+    "title": "One letter changes 125 of 256 bits",
+    "recall": "How many bits is a SHA-256 fingerprint, and how many hex characters?",
+    "answer": "256 bits, 64 hex characters."
+  },
+  {
+    "date": "2026-11-06",
+    "slot": "am",
+    "theme": "The story of an idea",
+    "title": "The Morse code drawn in sand that scans your milk",
+    "recall": "What did Norman Joseph Woodland borrow from Morse code?",
+    "answer": "The idea of short and long marks, stretched into thin and thick lines."
+  },
+  {
+    "date": "2026-11-06",
+    "slot": "pm",
+    "theme": "Numbers that lie",
+    "title": "A 99% alarm that is right 17% of the time",
+    "recall": "A spam filter catches 95% of spam and wrongly flags 2% of good mail. If 1 mail in 100 is spam, is a flagged mail more likely spam or good?",
+    "answer": "Among 10,000 mails, 95 spam are caught and 198 good ones are flagged, so a flagged mail is more likely good (about 32% spam)."
+  },
+  {
+    "date": "2026-11-07",
+    "slot": "am",
+    "theme": "Life skills",
+    "title": "The rice that survives the pot",
+    "recall": "What is the name of the bacterium, and what is a spore?",
+    "answer": "Bacillus cereus. A spore is a tough, dormant shell that survives cooking and wakes when conditions are warm and wet."
   }
 ]
