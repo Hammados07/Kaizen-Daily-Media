@@ -1,15 +1,7 @@
 {
- "checked": "2026-11-07T12:30:27.075Z",
+ "checked": "2026-11-07T12:31:06.303Z",
  "signedIn": true,
  "scope": "https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/yt-analytics.readonly",
- "lastRun": [
-  {
-   "f": "2026-11-07-solar-forecast.json",
-   "id": "fVwANkrvIcc",
-   "privacy": "public"
-  }
- ],
- "followups": [
-  "2026-11-07-solar-forecast.json: playlist models"
- ]
+ "lastRun": [],
+ "followups": []
 }
