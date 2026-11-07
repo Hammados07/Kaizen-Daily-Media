@@ -1,7 +1,7 @@
 {
- "checked": "2026-11-07T02:09:46.552Z",
+ "checked": "2026-11-07T02:10:21.865Z",
  "signedIn": true,
- "scope": "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload",
+ "scope": "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.force-ssl",
  "lastRun": [],
  "followups": []
 }
