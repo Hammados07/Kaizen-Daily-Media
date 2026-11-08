@@ -1,0 +1,8 @@
+{
+ "when": "2026-11-13T18:00:00+05:30",
+ "file": "2026-11-13/fraudrare.mp4",
+ "title": "Why a good fraud model fails on rare fraud",
+ "description": "Same model, same line. When fraud gets rare, only 18% of flags are real.\nTry it free: https://models.rimilab.com/#/workshop/roc-pr",
+ "tags": ["machine learning", "precision recall", "fraud detection", "rimilab"],
+ "short": true
+}
