@@ -1,16 +1,7 @@
 {
- "checked": "2026-11-08T14:31:15.873Z",
+ "checked": "2026-11-08T18:32:39.153Z",
  "signedIn": true,
  "scope": "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload",
- "lastRun": [
-  {
-   "f": "2026-11-08-ep04.json",
-   "id": "W8asoVfotWo",
-   "privacy": "public"
-  }
- ],
- "followups": [
-  "2026-11-08-ep04.json: playlist explainers",
-  "2026-11-08-ep04.json: captions"
- ]
+ "lastRun": [],
+ "followups": []
 }
