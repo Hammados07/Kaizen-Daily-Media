@@ -7,5 +7,17 @@
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
  "picture": null,
- "altChecked": 2
+ "altChecked": 2,
+ "alt": {
+  "query": "moon south pole",
+  "nasaId": "PIA00001",
+  "title": "South Pole Region of the Moon as Seen by Clementine",
+  "center": "JPL",
+  "created": "1996-06-03",
+  "description": "Lunar mosaic of ~1500 Clementine images of the south polar region of the moon. The projection is orthographic, centered on the south pole. The Schrodinger Basin (320 km in diameter) is located in the lower right of the mosaic. Amundsen-Ganswindt is the more subdued circular basin between Schrodinger and the pole. The polar regions of the moon are of special interest because of the postulated occurrence of ice in permanently shadowed areas. The south pole is of greater interest because the area that remains in shadow is much larger than that at the north pole.  http://photojournal.jpl.nasa.gov/catalog/PIA00001",
+  "page": "https://images.nasa.gov/details/PIA00001",
+  "href": "https://images-assets.nasa.gov/image/PIA00001/PIA00001~large.jpg",
+  "picture": "apod/2026-11-07-alt.jpg",
+  "askedFor": "moon south pole"
+ }
 }
