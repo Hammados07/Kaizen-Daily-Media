@@ -1,0 +1,14 @@
+{
+ "when": "2026-11-28T18:00:00+05:30",
+ "file": "2026-11-28/two-clues.mp4",
+ "title": "A spam filter said 99%. It was 90%.",
+ "description": "Two clues multiplied as if they were unrelated. The filter said 99% spam. Counting the real mails gave 90%.\nTry the naive step yourself, free: https://models.rimilab.com/#/models/naive-bayes\nAn invented inbox of 1,000 mails.",
+ "tags": [
+  "naive bayes",
+  "machine learning",
+  "spam filter",
+  "probability",
+  "rimilab"
+ ],
+ "short": true
+}
