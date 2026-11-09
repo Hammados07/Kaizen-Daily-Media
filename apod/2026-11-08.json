@@ -7,5 +7,17 @@
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
  "picture": null,
- "altChecked": 2
+ "altChecked": 2,
+ "alt": {
+  "query": "fireball meteor",
+  "nasaId": "PIA22825",
+  "title": "MISR Images Fireball Over Bering Sea",
+  "center": "JPL",
+  "created": "2019-03-21",
+  "description": "This image sequence shows views from five of nine cameras on the Multi-angle Imaging SpectroRadiometer (MISR) instrument taken at 23:55 Coordinated Universal Time (UTC), a few minutes after a fireball - the term used for exceptionally bright meteors that are visible over a wide area - exploded over the Bering Sea on Dec. 18, 2018. The shadow of the meteor's trail through Earth's atmosphere, cast on the cloud tops and elongated by the low sun angle, is to the northwest. The orange-tinted cloud that the fireball left behind by super-heating the air it passed through can be seen below and to the right of the GIF's center.  Animation available at https://photojournal.jpl.nasa.gov/catalog/PIA22825",
+  "page": "https://images.nasa.gov/details/PIA22825",
+  "href": "https://images-assets.nasa.gov/image/PIA22825/PIA22825~medium.jpg",
+  "picture": "apod/2026-11-08-alt.jpg",
+  "askedFor": "fireball meteor"
+ }
 }
