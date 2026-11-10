@@ -1,0 +1,8 @@
+{
+ "when": "2026-11-16T18:00:00+05:30",
+ "file": "2026-11-16/bayes.mp4",
+ "title": "A 90% check that is wrong 85% of the time",
+ "description": "A check catches 90% of problems. Yet when the problem is rare, its alarm is right only 15% of the time.\nMake the problem more common and the same check reaches 82%.\nFull lesson: https://mba.rimilab.com/#/mba/bayes",
+ "tags": ["mba", "probability", "baserate", "statistics"],
+ "short": true
+}
