@@ -38,5 +38,65 @@
     "title": "The rice that survives the pot",
     "recall": "What is the name of the bacterium, and what is a spore?",
     "answer": "Bacillus cereus. A spore is a tough, dormant shell that survives cooking and wakes when conditions are warm and wet."
+  },
+  {
+    "date": "2026-11-07",
+    "slot": "pm",
+    "theme": "JavaScript",
+    "title": "The 15-minute backup test you have never run",
+    "recall": "What do the numbers 3, 2 and 1 stand for in the 3-2-1 rule?",
+    "answer": "Three copies, two kinds of storage, one copy kept in a different place.",
+    "level": "working"
+  },
+  {
+    "date": "2026-11-08",
+    "slot": "am",
+    "theme": "The week in review",
+    "title": "Why a quiz beats a re-read",
+    "recall": "What is the testing effect in one sentence?",
+    "answer": "Pulling a fact out of memory strengthens it more than looking at it again."
+  },
+  {
+    "date": "2026-11-08",
+    "slot": "pm",
+    "theme": "Plan next week",
+    "title": "The 66-day habit that is really a 94-study sentence",
+    "recall": "What are the three parts of a good if-then plan?",
+    "answer": "A daily cue, one tiny action, a return rule for a miss.",
+    "level": "working"
+  },
+  {
+    "date": "2026-11-09",
+    "slot": "am",
+    "theme": "Money and business",
+    "title": "The shop that grew broke while making a profit",
+    "recall": "What is the formula for the cash conversion cycle?",
+    "answer": "DIO + DSO − DPO."
+  },
+  {
+    "date": "2026-11-09",
+    "slot": "pm",
+    "theme": "Excel",
+    "title": "The running total that cannot go below zero",
+    "recall": "Which one function stops the running value going below zero?",
+    "answer": "MAX(0, ...) inside the LAMBDA.",
+    "level": "working"
+  },
+  {
+    "date": "2026-11-10",
+    "slot": "am",
+    "theme": "Science",
+    "title": "Why you cannot tickle yourself",
+    "recall": "What is an efference copy?",
+    "answer": "A copy of a movement command that the brain uses to predict the result of the movement."
+  },
+  {
+    "date": "2026-11-10",
+    "slot": "pm",
+    "theme": "R",
+    "title": "The R vector that quietly repeats itself",
+    "recall": "How do you turn a TRUE/FALSE vector into the share of TRUE?",
+    "answer": "Take its mean().",
+    "level": "new"
   }
 ]
