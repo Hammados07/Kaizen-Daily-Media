@@ -1,7 +1,15 @@
 {
- "checked": "2026-11-09T20:51:48.743Z",
+ "checked": "2026-11-10T12:30:24.371Z",
  "signedIn": true,
  "scope": "https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/yt-analytics.readonly",
- "lastRun": [],
- "followups": []
+ "lastRun": [
+  {
+   "f": "2026-11-10-pca.json",
+   "id": "pPgU6XB0ILw",
+   "privacy": "public"
+  }
+ ],
+ "followups": [
+  "2026-11-10-pca.json: playlist models"
+ ]
 }
