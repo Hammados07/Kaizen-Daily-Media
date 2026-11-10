@@ -1,15 +1,7 @@
 {
- "checked": "2026-11-10T12:30:24.371Z",
+ "checked": "2026-11-10T18:54:26.570Z",
  "signedIn": true,
- "scope": "https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/yt-analytics.readonly",
- "lastRun": [
-  {
-   "f": "2026-11-10-pca.json",
-   "id": "pPgU6XB0ILw",
-   "privacy": "public"
-  }
- ],
- "followups": [
-  "2026-11-10-pca.json: playlist models"
- ]
+ "scope": "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload",
+ "lastRun": [],
+ "followups": []
 }
