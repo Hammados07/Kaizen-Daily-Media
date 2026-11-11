@@ -1,0 +1,8 @@
+{
+ "when": "2026-11-17T18:00:00+05:30",
+ "file": "2026-11-17/kmeans.mp4",
+ "title": "How many groups are real? Find the bend",
+ "description": "More groups always lower the score. So how many are real?\nOne group scores 556.9. Three groups, 68.5. Eight, 32.6. Look for the bend.\nFull lesson: https://models.rimilab.com/#/models/k-means",
+ "tags": ["machine learning", "k-means", "clustering", "data science"],
+ "short": true
+}
