@@ -1,15 +1,7 @@
 {
- "checked": "2026-11-12T12:30:28.551Z",
+ "checked": "2026-11-12T18:38:36.139Z",
  "signedIn": true,
- "scope": "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.force-ssl",
- "lastRun": [
-  {
-   "f": "2026-11-12-oil-race.json",
-   "id": "u9UaKoa08QU",
-   "privacy": "public"
-  }
- ],
- "followups": [
-  "2026-11-12-oil-race.json: playlist mba"
- ]
+ "scope": "https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/yt-analytics.readonly",
+ "lastRun": [],
+ "followups": []
 }
