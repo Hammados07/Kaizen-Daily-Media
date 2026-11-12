@@ -1,7 +1,15 @@
 {
- "checked": "2026-11-11T21:37:13.024Z",
+ "checked": "2026-11-12T12:30:28.551Z",
  "signedIn": true,
  "scope": "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.force-ssl",
- "lastRun": [],
- "followups": []
+ "lastRun": [
+  {
+   "f": "2026-11-12-oil-race.json",
+   "id": "u9UaKoa08QU",
+   "privacy": "public"
+  }
+ ],
+ "followups": [
+  "2026-11-12-oil-race.json: playlist mba"
+ ]
 }
