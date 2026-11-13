@@ -1,15 +1,7 @@
 {
- "checked": "2026-11-13T15:31:25.300Z",
+ "checked": "2026-11-13T21:41:51.172Z",
  "signedIn": true,
  "scope": "https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/yt-analytics.readonly",
- "lastRun": [
-  {
-   "f": "2026-11-13-fraudrare.json",
-   "id": "H1AMlnzAmUc",
-   "privacy": "public"
-  }
- ],
- "followups": [
-  "2026-11-13-fraudrare.json: playlist models"
- ]
+ "lastRun": [],
+ "followups": []
 }
