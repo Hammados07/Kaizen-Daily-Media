@@ -1,0 +1,8 @@
+{
+ "when": "2026-11-19T18:00:00+05:30",
+ "file": "2026-11-19/wind-forecast.mp4",
+ "title": "Two forecasts of China's wind. Both wrong.",
+ "description": "A straight line said 333 TWh for 2020. A growth curve said 1,039. The real number was 467.\nBoth models saw only 2010 to 2014. Test a forecast yourself: https://rimilab.com/#/mba/forecasting\nData: Ember and Energy Institute, via Our World in Data (CC BY 4.0).",
+ "tags": ["forecasting", "wind power", "data", "business analytics"],
+ "short": true
+}
