@@ -7,5 +7,17 @@
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/",
  "picture": null,
- "altChecked": 2
+ "altChecked": 2,
+ "alt": {
+  "query": "Venus moon",
+  "nasaId": "NHQ202605180002",
+  "title": "Moon Venus Conjunction",
+  "center": "HQ",
+  "created": "2026-05-18",
+  "description": "The Moon and Venus, left, are seen in conjunction, Monday, May 18, 2026, from the Mary W. Jackson NASA Headquarters Building in Washington. Photo Credit: (NASA/Bill Ingalls)",
+  "page": "https://images.nasa.gov/details/NHQ202605180002",
+  "href": "https://images-assets.nasa.gov/image/NHQ202605180002/NHQ202605180002~large.jpg",
+  "picture": "apod/2026-11-12-alt.jpg",
+  "askedFor": "Venus moon"
+ }
 }
