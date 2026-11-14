@@ -1,0 +1,13 @@
+{
+ "when": "2026-11-20T18:00:00+05:30",
+ "file": "2026-11-20/leakage.mp4",
+ "title": "Why a 95% model drops 24 points",
+ "description": "A churn model peeks at a column that only exists after the customer leaves. Leave it out and the real score rises.\nTry it free: https://models.rimilab.com/#/workshop/break-leakage",
+ "tags": [
+  "machine learning",
+  "data leakage",
+  "model validation",
+  "rimilab"
+ ],
+ "short": true
+}
