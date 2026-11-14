@@ -7,5 +7,17 @@
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/",
  "picture": null,
- "altChecked": 2
+ "altChecked": 2,
+ "alt": {
+  "query": "Andromeda galaxy M31",
+  "nasaId": "PIA15416",
+  "title": "Andromeda",
+  "center": "JPL",
+  "created": "2012-05-16",
+  "description": "Hot stars burn brightly in this new image from NASA Galaxy Evolution Explorer, showing the ultraviolet side of a familiar face. Approximately 2.5 million light-years away, the Andromeda galaxy, or M31, is our Milky Way largest galactic neighbor.",
+  "page": "https://images.nasa.gov/details/PIA15416",
+  "href": "https://images-assets.nasa.gov/image/PIA15416/PIA15416~large.jpg",
+  "picture": "apod/2026-11-13-alt.jpg",
+  "askedFor": "Andromeda galaxy M31"
+ }
 }
