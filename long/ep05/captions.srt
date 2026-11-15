@@ -1,0 +1,368 @@
+1
+00:00:01,200 --> 00:00:04,016
+A computer model studies twenty-four dots.
+
+2
+00:00:04,336 --> 00:00:08,901
+It learns them so well that its
+miss is the smallest on the chart.
+
+3
+00:00:09,221 --> 00:00:12,357
+Then we show it sixty new
+dots it has never seen.
+
+4
+00:00:12,677 --> 00:00:15,707
+Now its miss is almost
+ninety times bigger.
+
+5
+00:00:16,027 --> 00:00:17,499
+So what went wrong?
+
+6
+00:00:17,819 --> 00:00:19,760
+In five minutes, you will know.
+
+7
+00:00:20,080 --> 00:00:23,728
+And you will never trust a perfect
+score in the same way again.
+
+8
+00:00:24,948 --> 00:00:27,551
+Start with two children
+and a spelling test.
+
+9
+00:00:27,871 --> 00:00:31,924
+The first child learns the ten words
+on the practice sheet, by heart.
+
+10
+00:00:32,244 --> 00:00:35,124
+The second child learns
+how letters make sounds.
+
+11
+00:00:35,444 --> 00:00:38,751
+On the practice sheet, the
+first child scores higher.
+
+12
+00:00:39,071 --> 00:00:41,716
+On new words, the first child is lost.
+
+13
+00:00:42,936 --> 00:00:44,323
+Now the computer.
+
+14
+00:00:44,643 --> 00:00:46,477
+Picture a gentle wave.
+
+15
+00:00:46,797 --> 00:00:51,555
+We show twenty-four dots near it, each
+pushed up or down a little by chance.
+
+16
+00:00:51,875 --> 00:00:53,603
+That push is called noise.
+
+17
+00:00:53,923 --> 00:00:56,184
+Sixty more dots are kept hidden.
+
+18
+00:00:56,504 --> 00:00:58,339
+They are the surprise test.
+
+19
+00:00:59,559 --> 00:01:01,969
+The model draws a curve through the dots.
+
+20
+00:01:02,289 --> 00:01:04,572
+It has one dial, called bendiness.
+
+21
+00:01:04,892 --> 00:01:07,175
+At one, the curve is a straight ruler.
+
+22
+00:01:07,495 --> 00:01:12,167
+At fourteen, it is like cooked
+spaghetti, free to bend almost anywhere.
+
+23
+00:01:12,487 --> 00:01:14,620
+We score each curve by its miss.
+
+24
+00:01:14,940 --> 00:01:19,569
+That is how far each dot sits from
+the curve, squared, then averaged.
+
+25
+00:01:19,889 --> 00:01:21,319
+Smaller is better.
+
+26
+00:01:22,539 --> 00:01:24,011
+Here are the scores.
+
+27
+00:01:24,331 --> 00:01:28,149
+At bendiness one, the ruler
+misses both sets by a lot.
+
+28
+00:01:28,469 --> 00:01:30,432
+At three, both misses fall.
+
+29
+00:01:30,752 --> 00:01:35,851
+At five, the hidden miss is zero point
+two five, the lowest it ever gets.
+
+30
+00:01:36,171 --> 00:01:38,645
+At ten, the hidden miss starts to climb.
+
+31
+00:01:38,965 --> 00:01:46,603
+At fourteen, the studied miss is the best of all, zero
+point zero seven, and the hidden miss jumps to six.
+
+32
+00:01:47,823 --> 00:01:49,999
+Put every bendiness on one chart.
+
+33
+00:01:50,319 --> 00:01:53,412
+The blue line is the miss
+on the studied dots.
+
+34
+00:01:53,732 --> 00:01:55,609
+It only ever goes down.
+
+35
+00:01:55,929 --> 00:01:59,129
+The coral line is the
+miss on the hidden dots.
+
+36
+00:01:59,449 --> 00:02:03,545
+It falls, it flattens, and then it
+shoots off the top of the chart.
+
+37
+00:02:03,865 --> 00:02:07,428
+The low point of the coral
+line is the model you want.
+
+38
+00:02:08,648 --> 00:02:10,205
+Why does this happen?
+
+39
+00:02:10,525 --> 00:02:13,384
+Every dot is part wave and part luck.
+
+40
+00:02:13,704 --> 00:02:16,264
+A stiff curve can only follow the wave.
+
+41
+00:02:16,584 --> 00:02:19,123
+A bendy curve follows the luck as well.
+
+42
+00:02:19,443 --> 00:02:23,816
+But the hidden dots had different luck,
+so the swerves point the wrong way.
+
+43
+00:02:24,136 --> 00:02:26,013
+This is called overfitting.
+
+44
+00:02:26,333 --> 00:02:29,619
+The model learned the practice
+sheet, not the spelling.
+
+45
+00:02:29,939 --> 00:02:33,523
+The ruler has the opposite
+problem, called underfitting.
+
+46
+00:02:33,843 --> 00:02:36,211
+It is too stiff to follow the wave.
+
+47
+00:02:37,431 --> 00:02:39,457
+Here is the strangest part.
+
+48
+00:02:39,777 --> 00:02:41,313
+Take the true wave.
+
+49
+00:02:41,633 --> 00:02:45,324
+It misses the studied dots by 0.248.
+
+50
+00:02:45,644 --> 00:02:50,188
+The spaghetti curve misses
+them by only 0.069.
+
+51
+00:02:50,508 --> 00:02:52,023
+It beats the truth.
+
+52
+00:02:52,343 --> 00:02:57,100
+When a model beats the truth on its own
+practice data, it has learned the luck.
+
+53
+00:02:58,320 --> 00:03:00,731
+Was that one unlucky set of dots?
+
+54
+00:03:01,051 --> 00:03:03,077
+We pressed New dots ten times.
+
+55
+00:03:03,397 --> 00:03:07,195
+The best bendiness landed between
+four and eight every time.
+
+56
+00:03:07,515 --> 00:03:14,149
+And bendiness fourteen missed the hidden dots by at
+least twice as much as the best one, every time.
+
+57
+00:03:15,369 --> 00:03:17,823
+So how do you calm a wild model?
+
+58
+00:03:18,143 --> 00:03:21,535
+Keep bendiness at fourteen,
+and watch the hidden miss.
+
+59
+00:03:21,855 --> 00:03:25,908
+With twenty-four dots to study,
+it is six point zero six.
+
+60
+00:03:26,228 --> 00:03:32,927
+With eighty dots, it falls to zero point one
+nine, because more dots leave less room to swerve.
+
+61
+00:03:33,247 --> 00:03:39,732
+With twenty-four dots and a small penalty on
+wild curves, it falls to zero point two six.
+
+62
+00:03:40,052 --> 00:03:42,185
+The lab calls it the stiffener.
+
+63
+00:03:42,505 --> 00:03:48,308
+Its real name is ridge, from Arthur
+Hoerl and Robert Kennard in 1970.
+
+64
+00:03:49,528 --> 00:03:51,491
+But the biggest fix is a habit.
+
+65
+00:03:51,811 --> 00:03:54,797
+Never judge a model on
+the data it studied.
+
+66
+00:03:55,117 --> 00:03:59,512
+Hold some data back, hide it,
+and judge the model only on that.
+
+67
+00:03:59,832 --> 00:04:04,760
+So when someone tells you their model
+is almost perfect, ask one question.
+
+68
+00:04:05,080 --> 00:04:06,403
+Perfect on what?
+
+69
+00:04:07,623 --> 00:04:11,889
+Here is the same model in the
+free Rimi Lab overfitting lab.
+
+70
+00:04:12,209 --> 00:04:15,836
+At bendiness one, a ruler cuts
+straight through the wave.
+
+71
+00:04:16,156 --> 00:04:20,977
+At five, the curve follows the wave,
+and the hidden miss is at its lowest.
+
+72
+00:04:21,297 --> 00:04:27,719
+At fourteen, the curve swerves to touch every
+studied dot, and misses the hidden ones badly.
+
+73
+00:04:28,039 --> 00:04:31,516
+Add a little stiffener, and
+the curve calms down again.
+
+74
+00:04:32,736 --> 00:04:34,464
+Three things to remember.
+
+75
+00:04:34,784 --> 00:04:39,563
+One, a near-perfect score on the
+data a model studied proves nothing.
+
+76
+00:04:39,883 --> 00:04:42,997
+Two, judge every model
+on data it never saw.
+
+77
+00:04:43,317 --> 00:04:48,245
+Three, more data, or a small penalty,
+calms a model that is too wild.
+
+78
+00:04:49,465 --> 00:04:54,436
+The same trap waits in sales forecasts,
+exam marks and house prices.
+
+79
+00:04:54,756 --> 00:04:58,745
+Try the overfitting lab for
+free at Rimi Lab, link below.
+
+80
+00:04:59,065 --> 00:05:02,009
+Next time, we head back
+out to the night sky.
+
+81
+00:05:02,329 --> 00:05:03,460
+See you then.
+
