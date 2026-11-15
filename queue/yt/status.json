@@ -1,15 +1,7 @@
 {
- "checked": "2026-11-15T12:30:24.097Z",
+ "checked": "2026-11-15T12:31:21.384Z",
  "signedIn": true,
  "scope": "https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/yt-analytics.readonly",
- "lastRun": [
-  {
-   "f": "2026-11-15-lightscale.json",
-   "id": "PSNcKnTcLjA",
-   "privacy": "public"
-  }
- ],
- "followups": [
-  "2026-11-15-lightscale.json: playlist cosmos"
- ]
+ "lastRun": [],
+ "followups": []
 }
