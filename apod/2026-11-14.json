@@ -9,14 +9,15 @@
  "picture": null,
  "altChecked": 2,
  "alt": {
-  "query": "Apollo 12 and Surveyor 3",
-  "nasaId": "PIA12903",
-  "title": "First Look: Apollo 12 and Surveyor 3",
-  "center": "JPL",
-  "created": "2009-09-03",
-  "description": "Boulders perched on the summit of the central peak of Tsiolkovskiy crater are seen in this image from NASA Lunar Reconnaissance Orbiter.",
-  "page": "https://images.nasa.gov/details/PIA12903",
-  "href": "https://images-assets.nasa.gov/image/PIA12903/PIA12903~orig.jpg",
-  "picture": "apod/2026-11-14-alt.jpg"
+  "query": "Apollo 12 Surveyor 3 landing site",
+  "nasaId": "S69-57076",
+  "title": "Photograph of prime Apollo 12 lunar landing site",
+  "center": "JSC",
+  "created": "1969-11-15",
+  "description": "S69-57076 (November 1969) --- This photograph taken by Lunar Orbiter 3 shows the prime Apollo 12 lunar landing site, which is located 1,000 feet east and 500 feet north of Surveyor 3. The landing ellipse is 7.2 nautical miles by 2.6 nautical miles. The coordinates of the ellipse center are 2 degrees 56 minutes 33 seconds (2.943 degrees) south latitude and 23 degrees 26 minutes 36 seconds (23.443 degrees) west longitude, and the elevation is 1,735,900 meters. The coordinates of Surveyor 3 are 2 degrees 57 minutes 10 seconds (2.953 degrees) south latitude, and 23 degrees 27 minutes 10 seconds (23.453 degrees) west longitude.",
+  "page": "https://images.nasa.gov/details/S69-57076",
+  "href": "https://images-assets.nasa.gov/image/S69-57076/S69-57076~large.jpg",
+  "picture": "apod/2026-11-14-alt.jpg",
+  "askedFor": "Apollo 12 Surveyor 3 landing site"
  }
 }
