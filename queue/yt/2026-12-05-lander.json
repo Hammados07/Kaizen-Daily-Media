@@ -1,0 +1,14 @@
+{
+ "when": "2026-12-05T18:00:00+05:30",
+ "file": "2026-12-05/lander.mp4",
+ "title": "Why landers fall first and brake late",
+ "description": "Hovering burns fuel. A lander that brakes from the top runs dry and hits the Moon at 35.2 m/s. One that brakes late lands softly with fuel to spare.\nLand one yourself, free: https://cosmos.rimilab.com/#/orbits/lander\nModel: Moon gravity from NASA's mass and radius.",
+ "tags": [
+  "moon landing",
+  "rocket science",
+  "physics",
+  "apollo",
+  "rimilab"
+ ],
+ "short": true
+}
