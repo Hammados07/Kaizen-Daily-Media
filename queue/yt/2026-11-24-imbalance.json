@@ -1,0 +1,13 @@
+{
+ "when": "2026-11-24T18:00:00+05:30",
+ "file": "2026-11-24/imbalance.mp4",
+ "title": "Why 99% accuracy can mean no fraud caught",
+ "description": "Raise the line on a fraud model and accuracy climbs to 99.2%. The frauds caught fall from 98 to 16 of 100.\nFlagging nothing at all scores 99.0%.\nFull lesson: https://models.rimilab.com/#/workshop/break-imbalance",
+ "tags": [
+  "machinelearning",
+  "fraud",
+  "datascience",
+  "modelevaluation"
+ ],
+ "short": true
+}
