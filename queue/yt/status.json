@@ -1,15 +1,7 @@
 {
- "checked": "2026-11-16T16:30:56.852Z",
+ "checked": "2026-11-17T00:32:27.584Z",
  "signedIn": true,
  "scope": "https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/yt-analytics.readonly",
- "lastRun": [
-  {
-   "f": "2026-11-16-bayes.json",
-   "id": "Bb6AFyRv_b4",
-   "privacy": "public"
-  }
- ],
- "followups": [
-  "2026-11-16-bayes.json: playlist mba"
- ]
+ "lastRun": [],
+ "followups": []
 }
