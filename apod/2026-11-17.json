@@ -7,5 +7,17 @@
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-november-17-milky-way-versus-aurora/",
  "picture": null,
- "altChecked": 2
+ "altChecked": 2,
+ "alt": {
+  "query": "aurora milky way",
+  "nasaId": "iss074e0491096",
+  "title": "A wispy aurora australis arcs across the Indian Ocean benaeth the Milky Way",
+  "center": "JSC",
+  "created": "2026-04-17",
+  "description": "iss074e0491096 (April 17, 2026) --- A wispy aurora australis arcs across the Indian Ocean as the Milky Way protrudes above Earth’s atmosphere in this photograph taken at approximately 8:55 p.m. local time from the International Space Station as it orbited 270 miles above the planet. Credit: NASA/Chris Williams",
+  "page": "https://images.nasa.gov/details/iss074e0491096",
+  "href": "https://images-assets.nasa.gov/image/iss074e0491096/iss074e0491096~large.jpg",
+  "picture": "apod/2026-11-17-alt.jpg",
+  "askedFor": "aurora milky way"
+ }
 }
