@@ -1,15 +1,7 @@
 {
- "checked": "2026-11-18T12:30:22.443Z",
+ "checked": "2026-11-18T17:38:44.652Z",
  "signedIn": true,
  "scope": "https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/yt-analytics.readonly",
- "lastRun": [
-  {
-   "f": "2026-11-18-doubleheat.json",
-   "id": "jHEEXLmzJOY",
-   "privacy": "public"
-  }
- ],
- "followups": [
-  "2026-11-18-doubleheat.json: playlist cosmos"
- ]
+ "lastRun": [],
+ "followups": []
 }
