@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-18",
+ "title": "An M-class Solar Flare",
+ "explanation": "What a flare for the chromatic! Today’s image captures a piece of the Sun ’s chromosphere, the layer of the Sun ’s atmosphere above its surface where the temperature rises. Why would the Sun become hotter farther away from its core? This is potentially due to energy from the swirling magnetic fields extending up through the Sun’s atmosphere. Those same magnetic fields can twist and snap, releasing light and energetic particles as a solar flare. The H-alpha filter used for today’s image captures light from energized hydrogen atoms as they travel off the Sun’s surface during a flare on May 14, 2025. This flare was classified as an M1 based on GOES observations, meaning it was moderately bright in X-rays. M-class flares can cause radio blackouts at Earth’s poles and minor radiation storms that can harm astronauts. They aren’t even the most powerful flares! NASA, NOAA, and other agencies monitor the Sun to predict and identify such storms so we can protect humans on Earth and in space. Tomorrow's picture: a horse of a different color",
+ "credit": "Mario Cogo",
+ "nasaOwned": false,
+ "mediaType": "image",
+ "page": "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/",
+ "picture": null,
+ "altChecked": 2,
+ "alt": {
+  "query": "An M-class Solar Flare",
+  "nasaId": "GSFC_20171208_Archive_e000829",
+  "title": "NASA Releases Images of 1st Notable Solar Flare of 2015",
+  "center": "GSFC",
+  "created": "2017-12-08",
+  "description": "The sun emitted a mid-level solar flare, peaking at 11:24 p.m. EST on Jan. 12, 2015. NASA’s Solar Dynamics Observatory, which watches the sun constantly, captured an image of the event. Solar flares are powerful bursts of radiation. Harmful radiation from a flare cannot pass through Earth's atmosphere to physically affect humans on the ground, however -- when intense enough -- they can disturb the atmosphere in the layer where GPS and communications signals travel.  This flare is classified as an M5.6-class flare. M-class flares are a tenth the size of the most intense flares, the X-class flares. The number provides more information about its strength. An M2 is twice as intense as an M1, an M3 is three times as intense, etc.   Credit: NASA/Goddard/SDO  <b><a href=\"http://www.nasa.gov/audience/formedia/features/MP_Photo_Guidelines.html\" rel=\"nofollow\">NASA image use policy.</a></b>  <b><a href=\"http://www.nasa.gov/centers/goddard/home/index.html\" rel=\"nofollow\">NASA Goddard Space Flight Center</a></b> enables NASA’s mission through four scientific endeavors: Earth Science, Heliophysics, Solar System Exploration, and Astrophysics. Goddard plays a leading role in NASA’s accomplishments by contributing compelling scientific knowledge to advance the Agency’s mission. <b>Follow us on <a href=\"http://twitter.com/NASAGoddardPix\" rel=\"nofollow\">Twitter</a></b> <b>Like us on <a href=\"http://www.facebook.com/pages/Greenbelt-MD/NASA-Goddard/395013845897?ref=tsd\" rel=\"nofollow\">Facebook</",
+  "page": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000829",
+  "href": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000829/GSFC_20171208_Archive_e000829~large.jpg",
+  "picture": "apod/2026-11-18-alt.jpg"
+ }
+}
