@@ -1,15 +1,15 @@
 {
- "checked": "2026-11-18T08:39:23.203Z",
+ "checked": "2026-11-18T12:30:22.443Z",
  "signedIn": true,
- "scope": "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.force-ssl",
+ "scope": "https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/yt-analytics.readonly",
  "lastRun": [
   {
-   "f": "2026-11-18-apod.json",
-   "id": "b1d5t8944kQ",
+   "f": "2026-11-18-doubleheat.json",
+   "id": "jHEEXLmzJOY",
    "privacy": "public"
   }
  ],
  "followups": [
-  "2026-11-18-apod.json: playlist apod"
+  "2026-11-18-doubleheat.json: playlist cosmos"
  ]
 }
