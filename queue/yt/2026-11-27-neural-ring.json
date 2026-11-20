@@ -1,0 +1,13 @@
+{
+ "when": "2026-11-27T18:00:00+05:30",
+ "file": "2026-11-27/neural-ring.mp4",
+ "title": "A neural network in 40 seconds",
+ "description": "One line cannot fence in a ring. Three neurons can. Watch a network learn it, then scale up.\nFull lesson: https://models.rimilab.com/#/models/neural-network\nSource: Rimi Lab Models, neural network lesson.",
+ "tags": [
+  "neural network",
+  "machine learning",
+  "deep learning",
+  "data science"
+ ],
+ "short": true
+}
