@@ -7,5 +7,17 @@
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-november-20-v-g-r/",
  "picture": null,
- "altChecked": 2
+ "altChecked": 2,
+ "alt": {
+  "query": "Voyager 1 spacecraft",
+  "nasaId": "NHQ202611170013",
+  "title": "NASA's Voyager 1 Spacecraft Light-Day",
+  "center": "HQ",
+  "created": "2026-11-17",
+  "description": "The Empire State Building is seen illuminated in gold to celebrate NASA's Voyager 1 spacecraft as it is about to pass one light-day away from Earth, a distance reached by no other human-made object, Tuesday, Nov. 17, 2026, viewed from SUMMIT One Vanderbilt in New York City. The color gold is emblematic of the gold-plated copper phonograph record that is flying on Voyager. The record contains sounds and images selected to portray the diversity of life and culture on Earth. Photo Credit: (NASA/Bill Ingalls)",
+  "page": "https://images.nasa.gov/details/NHQ202611170013",
+  "href": "https://images-assets.nasa.gov/image/NHQ202611170013/NHQ202611170013~large.jpg",
+  "picture": "apod/2026-11-20-alt.jpg",
+  "askedFor": "Voyager 1 spacecraft"
+ }
 }
