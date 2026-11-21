@@ -1,15 +1,7 @@
 {
- "checked": "2026-11-21T12:30:26.215Z",
+ "checked": "2026-11-21T16:51:44.418Z",
  "signedIn": true,
  "scope": "https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/yt-analytics.readonly",
- "lastRun": [
-  {
-   "f": "2026-11-21-stock-years.json",
-   "id": "kbhP_-QHMuw",
-   "privacy": "public"
-  }
- ],
- "followups": [
-  "2026-11-21-stock-years.json: playlist mba"
- ]
+ "lastRun": [],
+ "followups": []
 }
