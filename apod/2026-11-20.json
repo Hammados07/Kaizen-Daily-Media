@@ -9,15 +9,15 @@
  "picture": null,
  "altChecked": 2,
  "alt": {
-  "query": "Voyager 1 spacecraft",
-  "nasaId": "NHQ202611170013",
-  "title": "NASA's Voyager 1 Spacecraft Light-Day",
-  "center": "HQ",
-  "created": "2026-11-17",
-  "description": "The Empire State Building is seen illuminated in gold to celebrate NASA's Voyager 1 spacecraft as it is about to pass one light-day away from Earth, a distance reached by no other human-made object, Tuesday, Nov. 17, 2026, viewed from SUMMIT One Vanderbilt in New York City. The color gold is emblematic of the gold-plated copper phonograph record that is flying on Voyager. The record contains sounds and images selected to portray the diversity of life and culture on Earth. Photo Credit: (NASA/Bill Ingalls)",
-  "page": "https://images.nasa.gov/details/NHQ202611170013",
-  "href": "https://images-assets.nasa.gov/image/NHQ202611170013/NHQ202611170013~large.jpg",
+  "query": "Voyager spacecraft artist concept",
+  "nasaId": "PIA26353",
+  "title": "NASA's Voyager Probe Speeds Through Space (Artist's Concept)",
+  "center": "JPL",
+  "created": "2025-05-14",
+  "description": "      NASA's twin Voyager spacecraft, launched in 1977, are traveling through interstellar space at around 35,000 mph (56,000 kph). This artist's concept depicts one of the probes speeding away.      The Voyager spacecraft were built by NASA's Jet Propulsion Laboratory, which continues to operate both. JPL is a division of Caltech in Pasadena, California. The Voyager missions are a part of the NASA Heliophysics System Observatory, sponsored by the Heliophysics Division of the agency's Science Mission Directorate in Washington. For more information about the Voyager spacecraft, visit https://science.nasa.gov/mission/voyager/.  https://photojournal.jpl.nasa.gov/catalog/PIA26353",
+  "page": "https://images.nasa.gov/details/PIA26353",
+  "href": "https://images-assets.nasa.gov/image/PIA26353/PIA26353~large.jpg",
   "picture": "apod/2026-11-20-alt.jpg",
-  "askedFor": "Voyager 1 spacecraft"
+  "askedFor": "Voyager spacecraft artist concept"
  }
 }
