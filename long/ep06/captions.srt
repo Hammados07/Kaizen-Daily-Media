@@ -1,0 +1,505 @@
+1
+00:00:01,200 --> 00:00:03,952
+This sunflower is built
+one seed at a time.
+
+2
+00:00:04,272 --> 00:00:07,941
+Every new seed turns by the
+same amount from the last one.
+
+3
+00:00:08,261 --> 00:00:09,691
+That is the whole rule.
+
+4
+00:00:10,011 --> 00:00:12,891
+Turn it half a degree
+less, and gaps open up.
+
+5
+00:00:13,211 --> 00:00:17,712
+Turn it a little more, and the
+flower falls apart into five spokes.
+
+6
+00:00:18,932 --> 00:00:23,668
+The plant uses a turn of 137.5 degrees.
+
+7
+00:00:23,988 --> 00:00:25,908
+Not 137.
+
+8
+00:00:26,228 --> 00:00:28,980
+Not a round 144.
+
+9
+00:00:29,300 --> 00:00:30,836
+Why that one number?
+
+10
+00:00:32,056 --> 00:00:34,019
+Stay to the end, and you will know.
+
+11
+00:00:34,339 --> 00:00:38,115
+The answer is a number that
+refuses to be a fraction.
+
+12
+00:00:39,335 --> 00:00:42,449
+Here is the rule, drawn
+the way our lab draws it.
+
+13
+00:00:42,769 --> 00:00:44,561
+Seed one sits in the middle.
+
+14
+00:00:44,881 --> 00:00:48,401
+Each new seed turns, and
+sits a little further out.
+
+15
+00:00:49,621 --> 00:00:52,075
+The lab gives every flower a score.
+
+16
+00:00:52,395 --> 00:00:56,875
+It checks the gap between each seed and
+its nearest neighbour, ring by ring.
+
+17
+00:00:57,195 --> 00:00:59,285
+A perfect honeycomb scores 1.
+
+18
+00:00:59,605 --> 00:01:02,101
+The flower's score is its worst ring.
+
+19
+00:01:03,321 --> 00:01:06,692
+Most people guess that a neat
+turn makes a neat flower.
+
+20
+00:01:07,012 --> 00:01:08,655
+A third of a circle.
+
+21
+00:01:08,975 --> 00:01:09,999
+Two fifths.
+
+22
+00:01:10,319 --> 00:01:12,025
+Clean, simple numbers.
+
+23
+00:01:13,245 --> 00:01:15,208
+So try a third of a turn.
+
+24
+00:01:15,528 --> 00:01:17,683
+That is 120 degrees.
+
+25
+00:01:18,003 --> 00:01:20,413
+What shape do 500 seeds make?
+
+26
+00:01:20,733 --> 00:01:21,949
+Pause and guess.
+
+27
+00:01:26,469 --> 00:01:27,984
+Three straight spokes.
+
+28
+00:01:28,304 --> 00:01:32,741
+Every third seed points the same
+way, so the seeds stack in lines.
+
+29
+00:01:33,061 --> 00:01:35,813
+The score is 0.037.
+
+30
+00:01:37,033 --> 00:01:40,788
+Two fifths of a turn is 144 degrees.
+
+31
+00:01:41,108 --> 00:01:44,927
+Five spokes, and a score of 0.062.
+
+32
+00:01:45,247 --> 00:01:48,404
+Three eighths is 135 degrees.
+
+33
+00:01:48,724 --> 00:01:51,753
+Eight spokes, 0.099.
+
+34
+00:01:52,973 --> 00:01:54,979
+Every neat fraction does this.
+
+35
+00:01:55,299 --> 00:02:00,547
+The seeds come back to the same direction,
+and the space between the spokes stays empty.
+
+36
+00:02:01,767 --> 00:02:03,516
+So the neat guess fails.
+
+37
+00:02:03,836 --> 00:02:05,948
+Fine, pick a messy turn instead.
+
+38
+00:02:06,268 --> 00:02:11,516
+137 degrees is not a third, or
+two fifths, or three eighths.
+
+39
+00:02:11,836 --> 00:02:13,159
+Surely it works.
+
+40
+00:02:14,379 --> 00:02:17,003
+It scores 0.563.
+
+41
+00:02:17,323 --> 00:02:18,581
+Better, but look.
+
+42
+00:02:18,901 --> 00:02:23,339
+The seeds curl into 21 arms,
+with dark gaps between them.
+
+43
+00:02:24,559 --> 00:02:26,329
+Now add half a degree.
+
+44
+00:02:26,649 --> 00:02:29,828
+137.51 degrees.
+
+45
+00:02:30,148 --> 00:02:34,479
+The score jumps to 0.884,
+and the gaps close.
+
+46
+00:02:35,699 --> 00:02:37,597
+Here is the strange part.
+
+47
+00:02:37,917 --> 00:02:43,123
+137.51 scores 0.884.
+
+48
+00:02:43,443 --> 00:02:48,861
+Add just 0.09 degrees, to 137.6.
+
+49
+00:02:49,181 --> 00:02:50,931
+What happens to the score?
+
+50
+00:02:51,251 --> 00:02:52,467
+Pause and guess.
+
+51
+00:02:56,987 --> 00:02:59,483
+It drops to 0.522.
+
+52
+00:02:59,803 --> 00:03:01,957
+Worse than 137.
+
+53
+00:03:02,277 --> 00:03:05,989
+A tiny nudge, and 34
+arms with gaps appear.
+
+54
+00:03:07,209 --> 00:03:09,001
+So messy is not enough.
+
+55
+00:03:09,321 --> 00:03:12,948
+One messy turn works, and its
+next door neighbour fails.
+
+56
+00:03:13,268 --> 00:03:14,015
+Why?
+
+57
+00:03:15,235 --> 00:03:18,093
+Look at 137 degrees again.
+
+58
+00:03:18,413 --> 00:03:21,592
+It sits very close to eight
+twenty-firsts of a turn.
+
+59
+00:03:21,912 --> 00:03:25,368
+That is 137.14 degrees.
+
+60
+00:03:25,688 --> 00:03:29,933
+So every 21st seed comes back
+almost to the same direction.
+
+61
+00:03:30,253 --> 00:03:32,216
+Those are the 21 arms.
+
+62
+00:03:33,436 --> 00:03:38,961
+137.6 sits close to thirteen
+thirty-fourths of a turn.
+
+63
+00:03:39,281 --> 00:03:42,695
+That is 137.65 degrees.
+
+64
+00:03:43,015 --> 00:03:45,681
+So every 34th seed lines up.
+
+65
+00:03:46,001 --> 00:03:48,199
+Those are the 34 arms.
+
+66
+00:03:49,419 --> 00:03:51,872
+Every turn sits near some fraction.
+
+67
+00:03:52,192 --> 00:03:55,435
+The nearer it sits, the
+sooner the seeds line up.
+
+68
+00:03:55,755 --> 00:03:59,637
+So the best turn is the one that
+stays far from every fraction.
+
+69
+00:04:00,857 --> 00:04:02,863
+Mathematicians know that number.
+
+70
+00:04:03,183 --> 00:04:06,788
+It is the golden ratio, 1.618.
+
+71
+00:04:07,108 --> 00:04:13,465
+Split a full circle by it, and
+the smaller part is 137.5 degrees.
+
+72
+00:04:13,785 --> 00:04:15,471
+That is the golden angle.
+
+73
+00:04:15,791 --> 00:04:18,223
+No fraction gets close to it quickly.
+
+74
+00:04:19,443 --> 00:04:21,960
+Watch the best fractions try to catch it.
+
+75
+00:04:22,280 --> 00:04:23,304
+Two fifths.
+
+76
+00:04:23,624 --> 00:04:24,755
+Three eighths.
+
+77
+00:04:25,075 --> 00:04:26,376
+Five thirteenths.
+
+78
+00:04:26,696 --> 00:04:28,168
+Eight twenty-firsts.
+
+79
+00:04:28,488 --> 00:04:30,131
+Thirteen thirty-fourths.
+
+80
+00:04:30,451 --> 00:04:32,136
+Twenty-one fifty-fifths.
+
+81
+00:04:32,456 --> 00:04:34,248
+Thirty-four eighty-ninths.
+
+82
+00:04:34,568 --> 00:04:36,424
+Above, below, above, below.
+
+83
+00:04:36,744 --> 00:04:38,024
+Always a miss.
+
+84
+00:04:39,244 --> 00:04:41,185
+Now read the bottom numbers.
+
+85
+00:04:41,505 --> 00:04:46,113
+5, 8, 13, 21, 34, 55, 89.
+
+86
+00:04:46,433 --> 00:04:48,481
+They are the Fibonacci numbers.
+
+87
+00:04:48,801 --> 00:04:50,700
+The plant never counts them.
+
+88
+00:04:51,020 --> 00:04:52,727
+They fall out of one turn.
+
+89
+00:04:53,947 --> 00:04:59,429
+Near the rim of 500 seeds, neighbours
+sit 34 seeds apart one way.
+
+90
+00:04:59,749 --> 00:05:02,331
+And 55 seeds apart the other way.
+
+91
+00:05:02,651 --> 00:05:06,789
+So you can count 34
+spirals, and 55 spirals.
+
+92
+00:05:08,009 --> 00:05:10,463
+Now double the seeds, to 1,000.
+
+93
+00:05:10,783 --> 00:05:12,980
+How many spirals near the rim?
+
+94
+00:05:13,300 --> 00:05:14,516
+Pause and guess.
+
+95
+00:05:19,036 --> 00:05:20,871
+55 and 89.
+
+96
+00:05:21,191 --> 00:05:23,409
+The next pair of Fibonacci numbers.
+
+97
+00:05:23,729 --> 00:05:26,716
+And the score stays at 0.884.
+
+98
+00:05:27,936 --> 00:05:29,301
+That is the secret.
+
+99
+00:05:29,621 --> 00:05:32,757
+The golden angle never
+lines up, at any size.
+
+100
+00:05:33,077 --> 00:05:36,277
+So the head fills evenly,
+however big it grows.
+
+101
+00:05:37,497 --> 00:05:40,079
+You can try all of this in our free lab.
+
+102
+00:05:40,399 --> 00:05:43,727
+Start at 137 degrees and see the gaps.
+
+103
+00:05:44,047 --> 00:05:49,913
+Slide to 137.51, and the
+arms melt into an even head.
+
+104
+00:05:50,233 --> 00:05:52,879
+Press two fifths, and
+the spokes come back.
+
+105
+00:05:54,099 --> 00:05:56,381
+Real sunflowers are not perfect.
+
+106
+00:05:56,701 --> 00:06:04,125
+In one citizen science study, the public grew
+sunflowers, and 657 seed heads were checked.
+
+107
+00:06:04,445 --> 00:06:10,291
+Of 768 spiral counts, 74%
+were Fibonacci numbers.
+
+108
+00:06:10,611 --> 00:06:11,848
+Most, not all.
+
+109
+00:06:13,068 --> 00:06:16,396
+So why 137.5 degrees?
+
+110
+00:06:16,716 --> 00:06:20,257
+Because it is the turn that is
+hardest to write as a fraction.
+
+111
+00:06:20,577 --> 00:06:24,289
+So the seeds never line
+up, and no space is wasted.
+
+112
+00:06:25,509 --> 00:06:27,664
+Here is one thing to try today.
+
+113
+00:06:27,984 --> 00:06:31,163
+Find a sunflower, a pine
+cone, or a pineapple.
+
+114
+00:06:31,483 --> 00:06:34,640
+Count the spirals going
+one way, then the other.
+
+115
+00:06:34,960 --> 00:06:40,165
+You will often get two neighbours
+from 5, 8, 13, 21, 34.
+
+116
+00:06:41,385 --> 00:06:45,417
+The lab is free, at cosmos
+dot rimilab dot com.
+
+117
+00:06:45,737 --> 00:06:48,724
+Next week, back to business,
+with a money puzzle.
+
