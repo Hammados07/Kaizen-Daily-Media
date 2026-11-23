@@ -8,5 +8,17 @@
  "page": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
  "picture": null,
  "altChecked": 2,
- "note": "Credit says \"Processing & License: Matt Brealey, Seán Doran\", so treated as owner-kept."
+ "note": "Credit says \"Processing & License: Matt Brealey, Seán Doran\", so treated as owner-kept.",
+ "alt": {
+  "query": "Juno Jupiter clouds",
+  "nasaId": "PIA24972",
+  "title": "Clouds Stack Up in Jupiter's North Equatorial Belt",
+  "center": "JPL",
+  "created": "2021-10-28",
+  "description": "The three-dimensional character of Jupiter's cloud decks is captured in this image of the planet's North Equatorial Belt. Orange storms peek out from under banks of dark gray clouds. Lighter tan and gray clouds cast narrow shadows on the dark gray cloud bank below. At the top are the \"pop-up clouds,\" parcels of air pushed up to the altitude at which ammonia ice condenses to make small, bright clouds.  Jupiter appears to have a pastel hue to the naked eye through an Earth-based telescope. The color in this image from the JunoCam imager aboard NASA's Juno spacecraft has been \"exaggerated,\" processed by citizen scientist Brian Swift to bring out subtle differences. The result is that the cloud layering is more obvious than in the original image.  This image was taken Oct. 16, 2021, at 10:07 a.m. PDT (1:07 p.m. EDT) as Juno performed its 37th close flyby of Jupiter. At the time the image was taken, the spacecraft was about 3,738 miles (6,016 kilometers) from the tops of the clouds of the planet at a latitude of 49.17 degrees.  https://photojournal.jpl.nasa.gov/catalog/PIA24972",
+  "page": "https://images.nasa.gov/details/PIA24972",
+  "href": "https://images-assets.nasa.gov/image/PIA24972/PIA24972~large.jpg",
+  "picture": "apod/2026-11-22-alt.jpg",
+  "askedFor": "Juno Jupiter clouds"
+ }
 }
