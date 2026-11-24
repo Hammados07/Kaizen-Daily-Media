@@ -1,8 +1,0 @@
-{
- "when": "2026-11-24T08:30:00+05:30",
- "type": "REELS",
- "media": [
-  "https://raw.githubusercontent.com/hammados07/kaizen-daily-media/main/2026-11-24/imbalance.mp4"
- ],
- "caption": "A model that is 99% accurate. It misses most fraud.\n\nRaise the line and accuracy climbs to 99.2%. The frauds caught fall from 98 to 16 of 100.\n\nFlagging nothing at all scores 99.0%.\n\nSave this for later.\n\nTry it free: models.rimilab.com (link in bio)\n\n#fraud #machinelearning #datascience #modelevaluation #precisionrecall #rimilab"
-}
