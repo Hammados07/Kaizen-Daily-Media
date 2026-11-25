@@ -1,7 +1,15 @@
 {
- "checked": "2026-11-24T22:48:48.483Z",
+ "checked": "2026-11-25T15:47:54.403Z",
  "signedIn": true,
- "scope": "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.force-ssl",
- "lastRun": [],
- "followups": []
+ "scope": "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload",
+ "lastRun": [
+  {
+   "f": "2026-11-25-telescopes.json",
+   "id": "jMeD9niR_ig",
+   "privacy": "public"
+  }
+ ],
+ "followups": [
+  "2026-11-25-telescopes.json: playlist cosmos"
+ ]
 }
