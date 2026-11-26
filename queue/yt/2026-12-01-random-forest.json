@@ -1,0 +1,8 @@
+{
+ "when": "2026-12-01T18:00:00+05:30",
+ "file": "2026-12-01/random-forest.mp4",
+ "title": "Why 50 weak trees beat one",
+ "description": "Every tree is handicapped on purpose. Their disagreements cancel out, and the vote beats any single tree.\nFull lesson: https://models.rimilab.com/#/models/random-forest\nSource: Rimi Lab Models, random forest lesson.",
+ "tags": ["random forest", "machine learning", "ensemble learning", "data science"],
+ "short": true
+}
