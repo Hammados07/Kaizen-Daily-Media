@@ -1,15 +1,7 @@
 {
- "checked": "2026-11-26T15:51:20.343Z",
+ "checked": "2026-11-27T00:07:22.910Z",
  "signedIn": true,
- "scope": "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload",
- "lastRun": [
-  {
-   "f": "2026-11-26-nuclear-race.json",
-   "id": "ygyebTOUTj0",
-   "privacy": "public"
-  }
- ],
- "followups": [
-  "2026-11-26-nuclear-race.json: playlist mba"
- ]
+ "scope": "https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/yt-analytics.readonly",
+ "lastRun": [],
+ "followups": []
 }
