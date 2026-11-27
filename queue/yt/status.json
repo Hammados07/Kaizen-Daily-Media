@@ -1,7 +1,15 @@
 {
- "checked": "2026-11-27T00:07:22.910Z",
+ "checked": "2026-11-27T08:48:34.036Z",
  "signedIn": true,
  "scope": "https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/yt-analytics.readonly",
- "lastRun": [],
- "followups": []
+ "lastRun": [
+  {
+   "f": "2026-11-27-apod.json",
+   "id": "XzuJen2BVcE",
+   "privacy": "public"
+  }
+ ],
+ "followups": [
+  "2026-11-27-apod.json: playlist apod"
+ ]
 }
