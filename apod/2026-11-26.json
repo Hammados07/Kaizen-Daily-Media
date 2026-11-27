@@ -9,14 +9,15 @@
  "picture": null,
  "altChecked": 2,
  "alt": {
-  "query": "Eye in the Sky",
-  "nasaId": "PIA15809",
-  "title": "A WISE Eye on the Whole Sky Aartist Concept",
-  "center": "JPL",
-  "created": "2012-08-29",
-  "description": "The entire sky as mapped by NASA WISE at infrared wavelengths is shown here, with an artist concept of the WISE satellite superimposed.",
-  "page": "https://images.nasa.gov/details/PIA15809",
-  "href": "https://images-assets.nasa.gov/image/PIA15809/PIA15809~large.jpg",
-  "picture": "apod/2026-11-26-alt.jpg"
+  "query": "Milky Way galaxy",
+  "nasaId": "GSFC_20171208_Archive_e000261",
+  "title": "Astronomers Discover Dizzying Spin of the Milky Way Galaxy’s “Halo”",
+  "center": "GSFC",
+  "created": "2017-12-08",
+  "description": "Our Milky Way galaxy and its small companions are surrounded by a giant halo of million-degree gas (seen in blue in this artists' rendition) that is only visible to X-ray telescopes in space. University of Michigan astronomers discovered that this massive hot halo spins in the same direction as the Milky Way disk and at a comparable speed.  Read more: <a href=\"http://go.nasa.gov/29VgLdK\" rel=\"nofollow\">go.nasa.gov/29VgLdK</a>  Credit: NASA/CXC/M.Weiss/Ohio State/A Gupta et al  <b><a href=\"http://www.nasa.gov/audience/formedia/features/MP_Photo_Guidelines.html\" rel=\"nofollow\">NASA image use policy.</a></b>  <b><a href=\"http://www.nasa.gov/centers/goddard/home/index.html\" rel=\"nofollow\">NASA Goddard Space Flight Center</a></b> enables NASA’s mission through four scientific endeavors: Earth Science, Heliophysics, Solar System Exploration, and Astrophysics. Goddard plays a leading role in NASA’s accomplishments by contributing compelling scientific knowledge to advance the Agency’s mission.  <b>Follow us on <a href=\"http://twitter.com/NASAGoddardPix\" rel=\"nofollow\">Twitter</a></b>  <b>Like us on <a href=\"http://www.facebook.com/pages/Greenbelt-MD/NASA-Goddard/395013845897?ref=tsd\" rel=\"nofollow\">Facebook</a></b>  <b>Find us on <a href=\"http://instagrid.me/nasagoddard/?vm=grid\" rel=\"nofollow\">Instagram</a></b>      ",
+  "page": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000261",
+  "href": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000261/GSFC_20171208_Archive_e000261~large.jpg",
+  "picture": "apod/2026-11-26-alt.jpg",
+  "askedFor": "Milky Way galaxy"
  }
 }
