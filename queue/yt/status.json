@@ -1,15 +1,7 @@
 {
- "checked": "2026-11-27T12:30:44.475Z",
+ "checked": "2026-11-27T18:31:04.209Z",
  "signedIn": true,
  "scope": "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.force-ssl",
- "lastRun": [
-  {
-   "f": "2026-11-27-neural-ring.json",
-   "id": "T_3rqCQLPK0",
-   "privacy": "public"
-  }
- ],
- "followups": [
-  "2026-11-27-neural-ring.json: playlist models"
- ]
+ "lastRun": [],
+ "followups": []
 }
