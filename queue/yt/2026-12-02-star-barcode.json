@@ -1,0 +1,13 @@
+{
+ "when": "2026-12-02T18:00:00+05:30",
+ "file": "2026-12-02/star-barcode.mp4",
+ "title": "Read a star's barcode in 40 seconds",
+ "description": "Every element gives out its own exact colours. Hydrogen's red line sits at 656 nanometres. A yellow line in the Sun in 1868 led to helium.\nFull lesson: https://cosmos.rimilab.com/#/light/spectra\nSources: Rimi Lab Cosmos, hydrogen's lines and a star's chemistry lesson. NIST constants and spectral tables.",
+ "tags": [
+  "spectroscopy",
+  "helium",
+  "hydrogen",
+  "astronomy"
+ ],
+ "short": true
+}
