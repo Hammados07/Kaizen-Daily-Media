@@ -7,5 +7,17 @@
  "mediaType": "image",
  "page": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/",
  "picture": null,
- "altChecked": 2
+ "altChecked": 2,
+ "alt": {
+  "query": "full moon rising supermoon",
+  "nasaId": "MAF_20240819_SuperBlueMoon01",
+  "title": "August 2024 Blue Supermoon Rises over the “Rocket City” ",
+  "center": "MSFC",
+  "created": "2024-08-19",
+  "description": "A supermoon rises over Huntsville, Alabama, home to NASA’s Marshall Space Flight Center, Aug. 19.  Visible through Wednesday, Aug. 21, the full Moon is both a supermoon and a Blue Moon. Supermoons are the biggest and brightest full Moons of the year because the Moon is within 90% of its closest point to Earth. While not blue in color, the third full Moon in a season with four full Moons is called a “Blue Moon.” Huntsville is known as the “Rocket City” because of its proximity to NASA Marshall, which manages vital propulsion systems and hardware, launch vehicles, engineering technologies, and cutting-edge science for the agency.  ",
+  "page": "https://images.nasa.gov/details/MAF_20240819_SuperBlueMoon01",
+  "href": "https://images-assets.nasa.gov/image/MAF_20240819_SuperBlueMoon01/MAF_20240819_SuperBlueMoon01~large.jpg",
+  "picture": "apod/2026-11-27-alt.jpg",
+  "askedFor": "full moon rising supermoon"
+ }
 }
